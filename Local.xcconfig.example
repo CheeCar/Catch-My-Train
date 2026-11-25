@@ -1,0 +1,4 @@
+// Copy this file to Local.xcconfig (ignored by git) and replace the value with your Apple Developer Team ID (10 letters and digits).
+// A free Personal Team works. To find the ID, open your "Apple Development" certificate in Keychain Access (Xcode makes one under
+// Settings > Accounts > Manage Certificates): the Team ID is its Organizational Unit.
+DEVELOPMENT_TEAM = YOUR_TEAM_ID

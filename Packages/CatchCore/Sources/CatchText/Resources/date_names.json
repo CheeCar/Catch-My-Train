@@ -1,0 +1,11 @@
+{
+ "ht": {
+  "months": ["janvye", "fevriye", "mas", "avril", "me", "jen", "jiyè", "out", "septanm", "oktòb", "novanm", "desanm"],
+  "shortMonths": ["jan", "fev", "mas", "avr", "me", "jen", "jiy", "out", "sep", "okt", "nov", "des"],
+  "weekdays": ["dimanch", "lendi", "madi", "mèkredi", "jedi", "vandredi", "samdi"],
+  "shortWeekdays": ["dim", "len", "mad", "mèk", "jed", "van", "sam"],
+  "patterns": {"yMMMd": "d MMM y"},
+  "dateTimeSeparator": ", ",
+  "pickerLocale": "fr_HT"
+ }
+}

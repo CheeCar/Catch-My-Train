@@ -1,0 +1,1370 @@
+{
+ "format": 1,
+ "about": "What README.md and the docs/data-sources pages say about each metro area in areas.json (Packages/CatchCore/Sources/TransitCore/Resources). tools/generate_area_docs.py writes them from this file, areas.json, source-list.json and area_counties.bin. Per area: \"covers\" (what it covers, for its page and the list in docs/data-sources.md; README.md gives only the number of areas), \"inText\" (how a sentence names it when that isn't \"the\" and its name, as \"Greater Boston\"), \"label\" (where its name is written on the map: [latitude, longitude]; the map picks each area's color itself, from a fixed set that can be told apart with any kind of color vision, so that neighbors differ), \"places\" (towns labeled on the map: [name, latitude, longitude], or with \"left\" or \"above\" to put the name left of or above its dot; the first is larger) and \"groups\" (its page's operator tables; each row names the areas.json operators it covers in \"ops\", and every operator of the area must be in one of its rows). \"keys\": how to get each key or account, on the page of every area with an operator that needs it. \"rules\": the rules docs/metro-areas.md starts with, which say how every area's counties are chosen; per area, \"official\" is the US government's metro area it starts from (\"name\" as a sentence names it, and its \"counties\"), \"added\" and \"leftOut\" the counties put in or left out, each group with the \"text\" saying which and why (citing the rule), and the check makes sure the official counties, plus those added, minus those left out, are the area's counties in areas.json. \"positions\": where the positions of each operator's stations without times come from (see the data sources page).",
+ "rules": [
+  {"title": "Whole counties", "text": "Each metro area is a list of whole counties. In Connecticut, which replaced its counties with planning regions in 2022, it is a list of planning regions."},
+  {"title": "The government's metro areas first", "text": "An area starts from the US government's own metro area around its city, as defined by the Office of Management and Budget in OMB Bulletin 23-01: the combined statistical area, which joins neighboring metro areas that many people commute between, or the metropolitan statistical area where there is no combined one."},
+  {"title": "Names from Wikipedia", "text": "An area is called by the name of its English Wikipedia article, such as Greater Boston or Lehigh Valley, rather than by the government's long list of cities."},
+  {"title": "Islands", "text": "A county that can only be reached by boat, where the boats leave from a metro area, is part of that area, even where the government leaves it out."},
+  {"title": "Changes", "text": "Where the government's area doesn't match where people travel, a county can move to the next area, and an area can be split in two or joined with its neighbor. Each area below says what changed and why."},
+  {"title": "Where the app works", "text": "Only in an area's counties, and there near its trains, buses and ferries: the far parts of large rural counties, at the service area's outer edge, are outside it, and the map in the README shows only the parts inside. A part of an area's counties that lies between two parts of the service area is in too, even with no stop nearby, so the service area has no holes: Salisbury, Connecticut, and Sheffield, Massachusetts, are in for that reason. A pier or a boat on the water, which is in no county, counts in the nearest one. Where you are, or a place you pick, still counts up to 15 km beyond the service area, in the nearest of the areas' counties, so the app doesn't say you are outside just over its edge."},
+  {"title": "Edges", "text": "Where an area's own buses or trains run into the next county, that county is added to the area, and only the part near their stops is in the service area."},
+  {"title": "One piece", "text": "Each area is one piece, drawn on the app's map as a single dashed ring. Where an area has islands off its coast, the water between them and the mainland is in the service area too, and over the water the edge runs in straight lines that line up with the edge beside them, with no notches. Only water is added to join the pieces: no county and no stop."}
+ ],
+ "areas": [
+  {
+   "id": "newYork",
+   "slug": "new-york",
+   "label": [41.25, -74.25],
+   "covers": "New York City, Long Island, the Hudson Valley, northern and central New Jersey, southern Connecticut to New London and Mystic, and Pike County, PA",
+   "official": {"name": "the New York–Newark, NY-NJ-CT-PA combined statistical area", "counties": ["34003", "36005", "36027", "34013", "09120", "34017", "34019", "36047", "34021", "34023", "34025", "34027", "36059", "36061", "34029", "36071", "34031", "42103", "36079", "36081", "36085", "36087", "34035", "36103", "36105", "34037", "36111", "34039", "36119", "09190"]},
+   "added": [
+    {"counties": ["09170", "09140", "09130", "09180"], "text": "South Central Connecticut (New Haven), Naugatuck Valley (Waterbury), Lower Connecticut River Valley and Southeastern Connecticut (New London), which the government puts in the New Haven–Hartford–Waterbury combined area. Metro-North's New Haven Line and Waterbury Branch run there from New York, and Shore Line East continues the New Haven Line east to New London (rule 5)."}
+   ],
+   "places": [
+    [
+     "New York",
+     40.7128,
+     -74.006
+    ],
+    [
+     "Newark",
+     40.7357,
+     -74.1724,
+     "left"
+    ],
+    [
+     "Stamford",
+     41.0534,
+     -73.5387
+    ],
+    [
+     "New Haven",
+     41.3083,
+     -72.9279,
+     "left"
+    ],
+    [
+     "New London",
+     41.3557,
+     -72.0995,
+     "above"
+    ],
+    [
+     "Poughkeepsie",
+     41.7004,
+     -73.921,
+     "left"
+    ],
+    [
+     "Kingston",
+     41.927,
+     -73.9974,
+     "left"
+    ],
+    [
+     "Montauk",
+     41.0359,
+     -71.9545
+    ],
+    [
+     "Trenton",
+     40.2171,
+     -74.7429
+    ]
+   ],
+   "groups": [
+    {
+     "heading": "New York City and across the area",
+     "rows": [
+      {
+       "ops": [
+        "subway",
+        "sir",
+        "mtaBus",
+        "lirr",
+        "mnr"
+       ],
+       "operator": "MTA (New York City Transit, MTA Bus, LIRR, Metro-North)",
+       "runs": "Subway, Staten Island Railway, buses, LIRR and Metro-North trains",
+       "realtime": "Yes",
+       "key": "For buses, your own free [MTA Bus Time key](https://register.developer.obanyc.com/)"
+      },
+      {
+       "ops": [
+        "njr",
+        "njl",
+        "njb"
+       ],
+       "operator": "NJ Transit",
+       "runs": "Rail, light rail and buses",
+       "realtime": "Rail and buses, with your own account",
+       "key": "Optional NJ Transit developer account ([sign up](https://developer.njtransit.com/registration))"
+      },
+      {
+       "ops": [
+        "path"
+       ],
+       "operator": "Port Authority (PATH, timetable through Trillium)",
+       "runs": "PATH",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "amk"
+       ],
+       "operator": "Amtrak",
+       "runs": "Trains in the area",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:TBL"
+       ],
+       "operator": "Trans-Bridge Lines (through NJ Transit's website)",
+       "runs": "Coaches from the Lehigh Valley to Port Authority Bus Terminal, Wall Street and Newark Airport",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:SLH",
+        "bus:SUBT",
+        "bus:ROCK",
+        "bus:COMC",
+        "bus:NAE",
+        "bus:OWL"
+       ],
+       "operator": "Coach USA (ShortLine Hudson, Suburban Transit, Rockland Coaches, Community Coach, Newark Airport Express, Orange Westchester Link)",
+       "runs": "Coaches to Manhattan from the Hudson Valley, Rockland and Bergen Counties, Livingston and central New Jersey; Newark Airport to Grand Central and Port Authority Bus Terminal; Middletown to White Plains",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:LAKE"
+       ],
+       "operator": "Lakeland Bus Lines (through NJ Transit's website)",
+       "runs": "Coaches from Dover and Bernardsville to Port Authority Bus Terminal and Wall Street",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:ACAD"
+       ],
+       "operator": "Academy Bus (through NJ Transit's website)",
+       "runs": "Coaches from the Jersey Shore and central New Jersey to Port Authority Bus Terminal and Wall Street",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "srr",
+        "bus:SEPTA"
+       ],
+       "operator": "SEPTA",
+       "runs": "Regional Rail trains and buses to Trenton",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "nyf"
+       ],
+       "operator": "NYC Ferry",
+       "runs": "Ferries",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "nyw"
+       ],
+       "operator": "NY Waterway",
+       "runs": "Ferries",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "sif"
+       ],
+       "operator": "NYC DOT",
+       "runs": "Staten Island Ferry",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "sst"
+       ],
+       "operator": "Seastreak",
+       "runs": "Ferries",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "sol"
+       ],
+       "operator": "National Park Service",
+       "runs": "Statue of Liberty Ferry",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "tram"
+       ],
+       "operator": "RIOC (through Trillium)",
+       "runs": "Roosevelt Island Tram service hours",
+       "realtime": "No",
+       "key": "No"
+      }
+     ]
+    },
+    {
+     "heading": "Long Island",
+     "rows": [
+      {
+       "ops": [
+        "bus:NICE"
+       ],
+       "operator": "NICE",
+       "runs": "Nassau County buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:SCT"
+       ],
+       "operator": "Suffolk County Transit",
+       "runs": "Buses",
+       "realtime": "With your own key",
+       "key": "Optional Swiftly key ([request form](https://docs.google.com/forms/d/e/1FAIpQLScy9Jye91QPSTS3WVEU-13es0A1rT9Ep5JhAmXUZEiop7fmIw/viewform))"
+      },
+      {
+       "ops": [
+        "bus:HART"
+       ],
+       "operator": "Huntington HART (through 511NY)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:LB"
+       ],
+       "operator": "Long Beach Bus (through 511NY)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      }
+     ]
+    },
+    {
+     "heading": "Hudson Valley",
+     "rows": [
+      {
+       "ops": [
+        "bus:BXL"
+       ],
+       "operator": "Westchester County Bee-Line (timetable through 511NY)",
+       "runs": "Buses",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:HL"
+       ],
+       "operator": "Hudson Link (through Trillium)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:CMT"
+       ],
+       "operator": "Clarkstown Mini-Trans (through 511NY)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:PART"
+       ],
+       "operator": "Putnam Transit (through 511NY)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:DCT"
+       ],
+       "operator": "Dutchess County Public Transit (through 511NY)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:LEP"
+       ],
+       "operator": "Leprechaun Lines (through 511NY)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:UCAT"
+       ],
+       "operator": "Ulster County Area Transit (through 511NY)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:SUL"
+       ],
+       "operator": "Sullivan County Transit (through 511NY)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      }
+     ]
+    },
+    {
+     "heading": "Connecticut",
+     "rows": [
+      {
+       "ops": [
+        "bus:CTT",
+        "ctr",
+        "sle"
+       ],
+       "operator": "Connecticut DOT",
+       "runs": "CTtransit buses; CTrail Hartford Line and CTrail Shore Line East trains (Shore Line East's timetable comes with Amtrak's)",
+       "realtime": "CTtransit buses",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:GBT"
+       ],
+       "operator": "Greater Bridgeport Transit (through Trillium)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:NTD"
+       ],
+       "operator": "Norwalk Transit District",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:RVT"
+       ],
+       "operator": "River Valley Transit (through Trillium)",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:SEAT"
+       ],
+       "operator": "Southeast Area Transit",
+       "runs": "Buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:NECTD"
+       ],
+       "operator": "Northeastern Connecticut Transit District (NECTD, through Arcadis)",
+       "runs": "Buses to Lisbon Landing, where they meet Southeast Area Transit's",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:WRTD"
+       ],
+       "operator": "Windham Region Transit District (WRTD, through Passio)",
+       "runs": "Buses in Willimantic and to Norwich",
+       "realtime": "Yes",
+       "key": "No"
+      }
+     ]
+    },
+    {
+     "heading": "New Jersey",
+     "rows": [
+      {
+       "ops": [
+        "bus:HUNT"
+       ],
+       "operator": "Hunterdon County (Hunterdon County LINK, through NJ Transit's website)",
+       "runs": "Buses in Hunterdon County",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:SOM"
+       ],
+       "operator": "Somerset County (Somerset County Transportation, through NJ Transit's website)",
+       "runs": "Buses in Somerset County",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:SUSX"
+       ],
+       "operator": "Sussex County (Sussex County Skylands Ride, through NJ Transit's website)",
+       "runs": "Buses in Sussex County",
+       "realtime": "No",
+       "key": "No"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "philadelphia",
+   "slug": "philadelphia",
+   "label": [39.54, -75.22],
+   "covers": "Philadelphia and its suburbs, Berks County, PA, South Jersey, northern Delaware and Cecil County, MD",
+   "official": {"name": "the Philadelphia–Reading–Camden, PA-NJ-DE-MD combined statistical area", "counties": ["42101", "42017", "42029", "42045", "42091", "42011", "34005", "34007", "34015", "34033", "34011", "34001", "34009", "10003", "10001", "24015"]},
+   "places": [
+    [
+     "Philadelphia",
+     39.9526,
+     -75.1652
+    ],
+    [
+     "Wilmington",
+     39.7391,
+     -75.5398
+    ],
+    [
+     "Reading",
+     40.3356,
+     -75.9269
+    ],
+    [
+     "Pottstown",
+     40.2454,
+     -75.6496
+    ],
+    [
+     "Atlantic City",
+     39.3643,
+     -74.4229
+    ],
+    [
+     "Cape May",
+     38.9351,
+     -74.906
+    ]
+   ],
+   "groups": [
+    {
+     "heading": null,
+     "rows": [
+      {
+       "ops": [
+        "srr",
+        "smt",
+        "bus:SEPTA"
+       ],
+       "operator": "SEPTA",
+       "runs": "Regional Rail trains, Metro (subway and trolley lines) and buses",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "njr",
+        "njl",
+        "njb"
+       ],
+       "operator": "NJ Transit",
+       "runs": "Rail, the River LINE and buses",
+       "realtime": "Rail and buses, with your own account",
+       "key": "Optional NJ Transit developer account ([sign up](https://developer.njtransit.com/registration))"
+      },
+      {
+       "ops": [
+        "amk"
+       ],
+       "operator": "Amtrak",
+       "runs": "Trains in the area",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:TBL"
+       ],
+       "operator": "Trans-Bridge Lines (through NJ Transit's website)",
+       "runs": "Coaches from Quakertown, Doylestown and New Hope to Port Authority Bus Terminal",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:ACAD"
+       ],
+       "operator": "Academy Bus (through NJ Transit's website)",
+       "runs": "Coaches from Willingboro and Westampton to Manhattan",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "pat"
+       ],
+       "operator": "Delaware River Port Authority (PATCO, through National RTAP)",
+       "runs": "PATCO trains",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:PHLASH"
+       ],
+       "operator": "PHLASH (Philadelphia Visitors Center Corporation)",
+       "runs": "Seasonal visitor bus loops in Center City and West Fairmount Park",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:POTT"
+       ],
+       "operator": "Pottstown Area Rapid Transit",
+       "runs": "Buses in and around Pottstown",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:UMR"
+       ],
+       "operator": "Greater Valley Forge TMA (Upper Merion Rambler, through National RTAP)",
+       "runs": "Buses in Upper Merion Township and King of Prussia",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:TMACC"
+       ],
+       "operator": "Transportation Management Association of Chester County (TMACC ChescoBus, through Modeshift)",
+       "runs": "Buses in Chester County",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:BARTA"
+       ],
+       "operator": "BARTA (Berks Area Regional Transportation Authority)",
+       "runs": "Buses in Reading and Berks County",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:CECIL"
+       ],
+       "operator": "Cecil Transit (through Passio)",
+       "runs": "Buses in Cecil County, MD, and to Newark, DE",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:BURL"
+       ],
+       "operator": "Cross County Connection (BurLINK, through NJ Transit's website)",
+       "runs": "Buses in Burlington County",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:GLOU"
+       ],
+       "operator": "Gloucester County (through NJ Transit's website)",
+       "runs": "A shuttle in Logan Township",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:ATLC"
+       ],
+       "operator": "Atlantic County (through NJ Transit's website)",
+       "runs": "Community shuttles in Atlantic County",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:CUMB"
+       ],
+       "operator": "Cumberland County Division of Employment and Training (through NJ Transit's website)",
+       "runs": "Shuttles in Bridgeton and Vineland",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:SJTA"
+       ],
+       "operator": "South Jersey Transportation Authority (SJTA, through NJ Transit's website)",
+       "runs": "Shuttles in Pureland, Pennsauken and Vineland",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "marc"
+       ],
+       "operator": "Maryland Transit Administration (MARC)",
+       "runs": "MARC trains; only its Perryville station, in Cecil County, MD, is in the area",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "cml"
+       ],
+       "operator": "Delaware River and Bay Authority",
+       "runs": "Cape May–Lewes Ferry; only its Cape May terminal is in the area",
+       "realtime": "No",
+       "key": "No"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lehighValley",
+   "slug": "lehigh-valley",
+   "label": [41.09, -75.51],
+   "covers": "Lehigh and Northampton Counties (Allentown, Bethlehem and Easton), Carbon County, Monroe County in the Poconos, and Warren County, NJ",
+   "official": {"name": "the Allentown–Bethlehem–East Stroudsburg, PA-NJ combined statistical area", "counties": ["42077", "42095", "42025", "42089", "34041"]},
+   "places": [
+    [
+     "Allentown",
+     40.6023,
+     -75.4714,
+     "left"
+    ],
+    [
+     "Bethlehem",
+     40.6259,
+     -75.3705
+    ],
+    [
+     "Easton",
+     40.6884,
+     -75.2207,
+     "above"
+    ],
+    [
+     "Stroudsburg",
+     40.9868,
+     -75.1946
+    ],
+    [
+     "Jim Thorpe",
+     40.8676,
+     -75.7402,
+     "left"
+    ]
+   ],
+   "groups": [
+    {
+     "heading": null,
+     "rows": [
+      {
+       "ops": [
+        "bus:LANTA"
+       ],
+       "operator": "LANta (Lehigh and Northampton Transportation Authority)",
+       "runs": "Buses in Lehigh, Northampton and Carbon Counties",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:PONY"
+       ],
+       "operator": "Monroe County Transit Authority (Pocono Pony)",
+       "runs": "Buses in Monroe County",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:WARR"
+       ],
+       "operator": "Warren County (Warren County Transportation, through NJ Transit's website)",
+       "runs": "Shuttles from Phillipsburg and from Hackettstown to Washington",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:TBL"
+       ],
+       "operator": "Trans-Bridge Lines (through NJ Transit's website)",
+       "runs": "Coaches from Allentown, Bethlehem and Easton to New York and Newark Airport",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "njr",
+        "njb"
+       ],
+       "operator": "NJ Transit",
+       "runs": "Trains from Hackettstown and buses in Phillipsburg and to Easton",
+       "realtime": "With your own account",
+       "key": "Optional NJ Transit developer account ([sign up](https://developer.njtransit.com/registration))"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "greaterBoston",
+   "slug": "greater-boston",
+   "label": [42.56, -71.39],
+   "covers": "Boston and its suburbs, the North Shore, the South Shore, Worcester County, Bristol County, Cape Cod, Martha's Vineyard and Nantucket in Massachusetts, Rhode Island, southern New Hampshire, and the edge of York County, Maine, from Berwick to Kittery",
+   "official": {"name": "the Boston–Worcester–Providence, MA-RI-NH combined statistical area", "counties": ["25025", "25017", "25021", "25009", "25023", "25027", "25005", "25001", "44001", "44003", "44005", "44007", "44009", "33015", "33017", "33011", "33013", "33001"]},
+   "added": [
+    {"counties": ["23031"], "text": "York County, ME, which the government puts in the Portland–Lewiston–South Portland, ME combined area. COAST's buses from Dover and Portsmouth run to Berwick, South Berwick, Eliot and the Portsmouth Naval Shipyard in Kittery (rule 7)."},
+    {"counties": ["25007", "25019"], "text": "Dukes County (Martha's Vineyard, Chappaquiddick and the Elizabeth Islands, with Cuttyhunk) and Nantucket County, MA, which the government leaves out of every combined area. The ferries to them leave from Woods Hole, Falmouth, Hyannis, Harwich Port and New Bedford, and in summer from Quonset Point, RI (rule 4)."}
+   ],
+   "inText": "Greater Boston",
+   "places": [
+    [
+     "Boston",
+     42.3601,
+     -71.0589
+    ],
+    [
+     "Worcester",
+     42.2626,
+     -71.8023,
+     "above"
+    ],
+    [
+     "Providence",
+     41.824,
+     -71.4128
+    ],
+    [
+     "Manchester",
+     42.9956,
+     -71.4548
+    ],
+    [
+     "Hyannis",
+     41.6525,
+     -70.2881
+    ]
+   ],
+   "groups": [
+    {
+     "rows": [
+      {
+       "ops": [
+        "mbs",
+        "mbr",
+        "mbf",
+        "bus:MBTA"
+       ],
+       "operator": "MBTA (Massachusetts Department of Transportation)",
+       "runs": "Subway and trolley lines, Commuter Rail trains and the seasonal CapeFLYER, ferries and buses, with shuttle buses that replace trains during work on the lines",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "amk"
+       ],
+       "operator": "Amtrak",
+       "runs": "Trains in the area",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:RIPTA"
+       ],
+       "operator": "Rhode Island Public Transit Authority (RIPTA)",
+       "runs": "Buses across Rhode Island",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:WRTA"
+       ],
+       "operator": "Worcester Regional Transit Authority (WRTA)",
+       "runs": "Buses in Worcester and nearby towns",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:LRTA"
+       ],
+       "operator": "Lowell Regional Transit Authority (LRTA)",
+       "runs": "Buses in Lowell and nearby towns",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:GATRA"
+       ],
+       "operator": "Greater Attleboro Taunton Regional Transit Authority (GATRA)",
+       "runs": "Buses in Attleboro, Taunton, Wareham and nearby towns",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:SRTA"
+       ],
+       "operator": "Southeastern Regional Transit Authority (SRTA)",
+       "runs": "Buses in Fall River, New Bedford and nearby towns",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:BAT"
+       ],
+       "operator": "Brockton Area Transit Authority (BAT)",
+       "runs": "Buses in Brockton and nearby towns",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:CCRTA"
+       ],
+       "operator": "Cape Cod Regional Transit Authority (CCRTA)",
+       "runs": "Buses on Cape Cod",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:MART"
+       ],
+       "operator": "Montachusett Regional Transit Authority (MART)",
+       "runs": "Buses in Fitchburg, Leominster, Gardner and Athol, and commuter shuttles",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:MEVA"
+       ],
+       "operator": "Merrimack Valley Regional Transit Authority (MeVa Transit)",
+       "runs": "Buses in Lawrence, Haverhill, Newburyport and nearby towns",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:CATA"
+       ],
+       "operator": "Cape Ann Transportation Authority (CATA)",
+       "runs": "Buses in Gloucester and Rockport",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:MWRTA"
+       ],
+       "operator": "MetroWest Regional Transit Authority (MWRTA)",
+       "runs": "Buses in Framingham, Natick and nearby towns",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:LOGAN"
+       ],
+       "operator": "Massport (Massachusetts Port Authority)",
+       "runs": "Logan Express buses to Logan Airport, and the airport's shuttle buses",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:MANCH"
+       ],
+       "operator": "Manchester Transit Authority",
+       "runs": "Buses in Manchester, NH, and to Concord, Nashua and Salem, NH",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:NTS"
+       ],
+       "operator": "Nashua Transit System",
+       "runs": "Buses in Nashua, NH",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:COAST"
+       ],
+       "operator": "Cooperative Alliance for Seacoast Transportation (COAST)",
+       "runs": "Buses in Portsmouth, Dover and Rochester, NH, and to Berwick and Kittery, ME",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:VTA"
+       ],
+       "operator": "Martha's Vineyard Transit Authority (VTA)",
+       "runs": "Buses on Martha's Vineyard",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:NRTA"
+       ],
+       "operator": "Nantucket Regional Transit Authority (The WAVE)",
+       "runs": "Buses on Nantucket",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:PVTA"
+       ],
+       "operator": "Pioneer Valley Transit Authority (PVTA)",
+       "runs": "Bus from Amherst to Worcester, through the Brookfields, Spencer and Leicester",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:FRTA"
+       ],
+       "operator": "Franklin Regional Transit Authority (FRTA, timetable through Trillium, live data through Passio)",
+       "runs": "Bus from Greenfield and Orange to Athol",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "hyl"
+       ],
+       "operator": "Hy-Line Cruises",
+       "runs": "Ferries from Hyannis to Nantucket and Oak Bluffs, and between Nantucket and Oak Bluffs",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bsc"
+       ],
+       "operator": "Bay State Cruise Company",
+       "runs": "Ferry from Boston to Provincetown in summer",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bif"
+       ],
+       "operator": "Block Island Ferry",
+       "runs": "Ferries to Block Island from Point Judith, Newport and Fall River, some taking cars",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "cut"
+       ],
+       "operator": "Cuttyhunk Ferry Company",
+       "runs": "Ferry from New Bedford to Cuttyhunk",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "ppb"
+       ],
+       "operator": "Patriot Party Boats",
+       "runs": "Ferry from Falmouth to Oak Bluffs",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "fcl"
+       ],
+       "operator": "Freedom Cruise Line",
+       "runs": "Ferry from Harwich Port to Nantucket in summer",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "vff"
+       ],
+       "operator": "Vineyard Fast Ferry",
+       "runs": "Ferry from Quonset Point, RI, to Oak Bluffs in summer",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bhi",
+        "csi"
+       ],
+       "operator": "National Park Service",
+       "runs": "Boston Harbor Islands Ferry from Long Wharf and Hingham to Georges, Spectacle and Peddocks Islands, and Cathleen Stone Island Ferry from South Boston, in summer",
+       "realtime": "No",
+       "key": "No"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "greaterHartford",
+   "slug": "greater-hartford",
+   "label": [41.88, -73.13],
+   "covers": "Hartford and its suburbs, from New Britain to Enfield and Storrs, the northeastern corner of Connecticut around Putnam and Danielson, and the Northwest Hills around Torrington and Winsted",
+   "official": {
+    "name": "the New Haven–Hartford–Waterbury, CT combined statistical area",
+    "counties": [
+     "09110",
+     "09130",
+     "09170",
+     "09140",
+     "09180",
+     "09160",
+     "09150"
+    ]
+   },
+   "leftOut": [
+    {
+     "counties": [
+      "09170",
+      "09140",
+      "09130",
+      "09180"
+     ],
+     "text": "South Central Connecticut (New Haven), Naugatuck Valley (Waterbury), Lower Connecticut River Valley and Southeastern Connecticut (New London), which are part of the New York Metropolitan Area: the trains from New York run to them (rule 5). Greater Hartford is the other three planning regions: Capitol, Northeastern Connecticut and Northwest Hills."
+    }
+   ],
+   "inText": "Greater Hartford",
+   "places": [
+    [
+     "Hartford",
+     41.7658,
+     -72.6734
+    ]
+   ],
+   "groups": [
+    {
+     "heading": null,
+     "rows": [
+      {
+       "ops": [
+        "bus:CTT",
+        "ctr"
+       ],
+       "operator": "Connecticut DOT",
+       "runs": "CTtransit buses, CTfastrak among them; CTrail Hartford Line trains",
+       "realtime": "CTtransit buses",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "amk"
+       ],
+       "operator": "Amtrak",
+       "runs": "Trains in the area",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:PVTA"
+       ],
+       "operator": "Pioneer Valley Transit Authority (PVTA)",
+       "runs": "Bus from Springfield to Enfield",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:NECTD"
+       ],
+       "operator": "Northeastern Connecticut Transit District (NECTD, through Arcadis)",
+       "runs": "Buses in Putnam, Thompson, Killingly, Brooklyn and Plainfield",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:WRTD"
+       ],
+       "operator": "Windham Region Transit District (WRTD, through Passio)",
+       "runs": "Buses in Storrs and at the University of Connecticut, and from Willimantic to Danielson",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:NWCTD"
+       ],
+       "operator": "Northwestern Connecticut Transit District (NWCTD, through Arcadis)",
+       "runs": "Buses in Torrington and Winsted, and to Bantam and Canaan",
+       "realtime": "No",
+       "key": "No"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "westernMassachusetts",
+   "slug": "western-massachusetts",
+   "label": [42.33, -72.84],
+   "covers": "The Pioneer Valley (Springfield, Holyoke, Westfield, Northampton, Amherst and Greenfield, in Hampden, Hampshire and Franklin Counties) and the Berkshires (Pittsfield, North Adams and Great Barrington)",
+   "official": {
+    "name": "the Springfield–Amherst Town–Northampton, MA combined statistical area",
+    "counties": [
+     "25013",
+     "25015",
+     "25011"
+    ]
+   },
+   "added": [
+    {
+     "counties": [
+      "25003"
+     ],
+     "text": "Berkshire County, which the government makes a metro area of its own (Pittsfield, MA), in no combined area. It is joined with the Pioneer Valley as Western Massachusetts (rules 3 and 5): the Link413 buses run from Pittsfield and North Adams to Greenfield and Northampton, and Amtrak's trains from Springfield stop in Pittsfield."
+    }
+   ],
+   "inText": "Western Massachusetts",
+   "places": [
+    [
+     "Springfield",
+     42.1015,
+     -72.5898,
+     "left"
+    ],
+    [
+     "Pittsfield",
+     42.4501,
+     -73.2454,
+     "left"
+    ]
+   ],
+   "groups": [
+    {
+     "heading": null,
+     "rows": [
+      {
+       "ops": [
+        "bus:PVTA"
+       ],
+       "operator": "Pioneer Valley Transit Authority (PVTA)",
+       "runs": "Buses in Springfield, Holyoke, Westfield, Northampton and Amherst, at the University of Massachusetts, and to Ware and Palmer",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:FRTA"
+       ],
+       "operator": "Franklin Regional Transit Authority (FRTA, timetable through Trillium, live data through Passio)",
+       "runs": "Buses in Greenfield and Franklin County, to Northampton, Orange and Charlemont",
+       "realtime": "Yes",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:BRTA"
+       ],
+       "operator": "Berkshire Regional Transit Authority (BRTA, through Trillium)",
+       "runs": "Buses in Pittsfield, North Adams, Lee and Great Barrington, and the Link413 buses to Greenfield and Northampton",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "bus:MART"
+       ],
+       "operator": "Montachusett Regional Transit Authority (MART)",
+       "runs": "Shuttle from Athol to Orange",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "ctr"
+       ],
+       "operator": "Connecticut DOT",
+       "runs": "CTrail Hartford Line trains to Springfield",
+       "realtime": "No",
+       "key": "No"
+      },
+      {
+       "ops": [
+        "amk"
+       ],
+       "operator": "Amtrak",
+       "runs": "Trains in the area",
+       "realtime": "No",
+       "key": "No"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "keys": [
+  {
+   "ops": [
+    "mtaBus"
+   ],
+   "text": "**MTA Bus Time key** (MTA bus real-time data): open the [MTA Bus Time sign-up page](https://register.developer.obanyc.com/), enter your name and email, and MTA emails you the key. Paste it in **Settings → Data source → Keys and accounts**. MTA bus times are live only, so without the key no MTA bus times are shown."
+  },
+  {
+   "ops": [
+    "njr",
+    "njl",
+    "njb"
+   ],
+   "text": "**NJ Transit developer account** (NJ Transit rail and bus real-time data): sign up on the [NJ Transit developer site](https://developer.njtransit.com/registration) and select the GTFS-RAIL and GTFS-BUS APIs. NJ Transit reviews each request and emails you when the account is approved. Enter the same username and password in **Settings → Data source → Keys and accounts**, with the username written exactly as the developer site shows it at the top right and the approval email writes it, including capital letters."
+  },
+  {
+   "ops": [
+    "bus:SCT"
+   ],
+   "text": "**Swiftly key** (Suffolk County Transit real-time data): fill in the [Swiftly request form](https://docs.google.com/forms/d/e/1FAIpQLScy9Jye91QPSTS3WVEU-13es0A1rT9Ep5JhAmXUZEiop7fmIw/viewform) linked from Suffolk County's website, choosing Suffolk County Transit and GTFS-Realtime Trip Updates. Swiftly reviews each request and emails you the key. Paste it in **Settings → Data source → Keys and accounts**."
+  }
+ ],
+ "positions": {
+  "airtrain-jfk": "Port Authority",
+  "fire-island-ferries": "BTS",
+  "sayville-ferry": "BTS",
+  "davis-park-ferry": "US Census Bureau",
+  "cross-sound-ferry": "BTS",
+  "port-jefferson-ferry": "BTS",
+  "north-ferry": "BTS",
+  "south-ferry": "BTS",
+  "governors-island-ferry": "BTS",
+  "steamship-authority": "BTS",
+  "island-queen": "BTS",
+  "city-cruises-provincetown": "BTS",
+  "jamestown-newport-ferry": "BTS",
+  "prudence-ferry": "BTS",
+  "chappy-ferry": "US Census Bureau",
+  "captain-john": "US Census Bureau (Plymouth), BTS (Provincetown)",
+  "block-island-express": "BTS",
+  "viking-fleet": "US Census Bureau (Montauk), BTS (Block Island – New Harbor)"
+ },
+ "states": [
+  [
+   "NY",
+   42.25,
+   -74.9
+  ],
+  [
+   "NJ",
+   40.32,
+   -74.58
+  ],
+  [
+   "PA",
+   41.33,
+   -76.35
+  ],
+  [
+   "CT",
+   41.41,
+   -73.15
+  ],
+  [
+   "DE",
+   38.69,
+   -75.42
+  ],
+  [
+   "MD",
+   39.3,
+   -76.42
+  ],
+  [
+   "MA",
+   42.08,
+   -71.88
+  ],
+  [
+   "RI",
+   41.62,
+   -71.62
+  ],
+  [
+   "NH",
+   43.45,
+   -71.55
+  ],
+  [
+   "VT",
+   43.43,
+   -72.79
+  ],
+  [
+   "ME",
+   43.79,
+   -70.59
+  ]
+ ]
+}

@@ -1,0 +1,3725 @@
+{
+ "about": "How each name in the app's text is written in each language. keep: as in English in every language (stations, stops, lines, streets; companies, agencies, services and products; text to type). official: the maker's own name in each language (for Apple Maps: Apple's web page in that language; without one, the Maps app's name on a Mac in that language, with Apple; English where the Mac has no such language; for Google Maps: the name Google Maps itself shows in that language). place: places and landmarks, the name most used in the language (its Wikipedia article's title), or English where there is none. Every language has an entry for every official and place name, also when it is English. Several forms are listed where the grammar changes the name; typed lists sentences where the name is text to type and stays English. CatchTextTests checks the translations against this list.",
+ "names": [
+  {
+   "en": "Catch My Train",
+   "kind": "keep"
+  },
+  {
+   "en": "MTA",
+   "kind": "keep"
+  },
+  {
+   "en": "MTA Bus Time",
+   "kind": "keep"
+  },
+  {
+   "en": "NJ Transit",
+   "kind": "keep"
+  },
+  {
+   "en": "PATH",
+   "kind": "keep"
+  },
+  {
+   "en": "Swiftly",
+   "kind": "keep"
+  },
+  {
+   "en": "Suffolk County Transit",
+   "kind": "keep"
+  },
+  {
+   "en": "RIOC",
+   "kind": "keep"
+  },
+  {
+   "en": "Roosevelt Island Tram",
+   "kind": "keep"
+  },
+  {
+   "en": "Staten Island Railway",
+   "kind": "keep"
+  },
+  {
+   "en": "Select Bus Service",
+   "kind": "keep"
+  },
+  {
+   "en": "SBS",
+   "kind": "keep"
+  },
+  {
+   "en": "PATCO",
+   "kind": "keep"
+  },
+  {
+   "en": "MARC",
+   "kind": "keep"
+  },
+  {
+   "en": "Amtrak",
+   "kind": "keep"
+  },
+  {
+   "en": "GitHub",
+   "kind": "keep"
+  },
+  {
+   "en": "Google",
+   "kind": "keep"
+  },
+  {
+   "en": "GTFS",
+   "kind": "keep"
+  },
+  {
+   "en": "National Park Service",
+   "kind": "keep"
+  },
+  {
+   "en": "Port Authority of New York and New Jersey",
+   "kind": "keep"
+  },
+  {
+   "en": "Cape May–Lewes Ferry",
+   "kind": "keep"
+  },
+  {
+   "en": "PolyForm Noncommercial License 1.0.0",
+   "kind": "keep"
+  },
+  {
+   "en": "Perryville",
+   "kind": "keep"
+  },
+  {
+   "en": "New York, NY",
+   "kind": "keep"
+  },
+  {
+   "en": "Manhattan",
+   "kind": "place",
+   "wikidata": "Q11299",
+   "names": {
+    "ar": [
+     "مانهاتن"
+    ],
+    "bn": [
+     "ম্যানহাটন"
+    ],
+    "de": [
+     "Manhattan"
+    ],
+    "es": [
+     "Manhattan"
+    ],
+    "fr": [
+     "Manhattan"
+    ],
+    "gu": [
+     "મેનહટન"
+    ],
+    "he": [
+     "מנהטן"
+    ],
+    "hi": [
+     "मैनहटन"
+    ],
+    "ht": [
+     "Manhattan"
+    ],
+    "it": [
+     "Manhattan"
+    ],
+    "ja": [
+     "マンハッタン"
+    ],
+    "ko": [
+     "맨해튼"
+    ],
+    "pl": [
+     "Manhattan"
+    ],
+    "pt": [
+     "Manhattan"
+    ],
+    "ru": [
+     "Манхэттен"
+    ],
+    "tl": [
+     "Manhattan"
+    ],
+    "uk": [
+     "Мангеттен"
+    ],
+    "ur": [
+     "مینہیٹن"
+    ],
+    "vi": [
+     "Manhattan"
+    ],
+    "yi": [
+     "מאַנהעטן"
+    ],
+    "zh-Hans": [
+     "曼哈顿"
+    ],
+    "zh-Hant": [
+     "曼哈頓"
+    ]
+   }
+  },
+  {
+   "en": "Statue of Liberty",
+   "kind": "place",
+   "wikidata": "Q9202",
+   "names": {
+    "ar": [
+     "تمثال الحرية"
+    ],
+    "bn": [
+     "স্ট্যাচু অব লিবার্টি"
+    ],
+    "de": [
+     "Freiheitsstatue"
+    ],
+    "es": [
+     "Estatua de la Libertad"
+    ],
+    "fr": [
+     "statue de la Liberté"
+    ],
+    "gu": [
+     "સ્ટેચ્યુ ઑફ લિબર્ટી"
+    ],
+    "he": [
+     "פסל החירות"
+    ],
+    "hi": [
+     "स्टैचू ऑफ़ लिबर्टी"
+    ],
+    "ht": [
+     "Estati Libète"
+    ],
+    "it": [
+     "Statua della Libertà"
+    ],
+    "ja": [
+     "自由の女神像"
+    ],
+    "ko": [
+     "자유의 여신상"
+    ],
+    "pl": [
+     "Statua Wolności",
+     "Statuy Wolności",
+     "Statue Wolności",
+     "Statuę Wolności"
+    ],
+    "pt": [
+     "Estátua da Liberdade"
+    ],
+    "ru": [
+     "статуя Свободы",
+     "статуи Свободы",
+     "статуе Свободы",
+     "статую Свободы"
+    ],
+    "tl": [
+     "Estatwa ng Kalayaan"
+    ],
+    "uk": [
+     "Статуя Свободи",
+     "Статуї Свободи",
+     "Статую Свободи"
+    ],
+    "ur": [
+     "مجسمہ آزادی"
+    ],
+    "vi": [
+     "Tượng Nữ thần Tự do"
+    ],
+    "yi": [
+     "סטאַטוע פֿון ליבערטי"
+    ],
+    "zh-Hans": [
+     "自由女神像"
+    ],
+    "zh-Hant": [
+     "自由女神像"
+    ]
+   }
+  },
+  {
+   "en": "Apple Maps",
+   "kind": "official",
+   "names": {
+    "ar": [
+     "خرائط Apple"
+    ],
+    "bn": [
+     "Apple Maps"
+    ],
+    "de": [
+     "Apple Karten"
+    ],
+    "es": [
+     "Mapas de Apple"
+    ],
+    "fr": [
+     "Apple Plans"
+    ],
+    "gu": [
+     "Apple Maps"
+    ],
+    "he": [
+     "מפות Apple"
+    ],
+    "hi": [
+     "Apple नक़्शा"
+    ],
+    "ht": [
+     "Apple Maps"
+    ],
+    "it": [
+     "Mappe Apple"
+    ],
+    "ja": [
+     "Appleマップ"
+    ],
+    "ko": [
+     "Apple 지도"
+    ],
+    "pl": [
+     "Mapy Apple",
+     "Map Apple"
+    ],
+    "pt": [
+     "Mapas da Apple"
+    ],
+    "ru": [
+     "Apple Карты",
+     "Apple Карт"
+    ],
+    "tl": [
+     "Apple Maps"
+    ],
+    "uk": [
+     "Карти Apple",
+     "Карт Apple",
+     "Картах Apple"
+    ],
+    "ur": [
+     "Apple Maps"
+    ],
+    "vi": [
+     "Bản đồ Apple"
+    ],
+    "yi": [
+     "Apple Maps"
+    ],
+    "zh-Hans": [
+     "Apple 地图"
+    ],
+    "zh-Hant": [
+     "Apple 地圖"
+    ]
+   }
+  },
+  {
+   "en": "Google Maps",
+   "kind": "official",
+   "names": {
+    "ar": [
+     "خرائط Google"
+    ],
+    "bn": [
+     "Google Maps"
+    ],
+    "de": [
+     "Google Maps"
+    ],
+    "es": [
+     "Google Maps"
+    ],
+    "fr": [
+     "Google Maps"
+    ],
+    "gu": [
+     "Google Maps"
+    ],
+    "he": [
+     "מפות Google"
+    ],
+    "hi": [
+     "Google Maps"
+    ],
+    "ht": [
+     "Google Maps"
+    ],
+    "it": [
+     "Google Maps"
+    ],
+    "ja": [
+     "Google マップ"
+    ],
+    "ko": [
+     "Google 지도"
+    ],
+    "pl": [
+     "Mapy Google",
+     "Map Google",
+     "Mapach Google"
+    ],
+    "pt": [
+     "Google Maps"
+    ],
+    "ru": [
+     "Google Карты",
+     "Google Карт",
+     "Google Картах"
+    ],
+    "tl": [
+     "Google Maps"
+    ],
+    "uk": [
+     "Карти Google",
+     "Карт Google",
+     "Картах Google"
+    ],
+    "ur": [
+     "Google Maps"
+    ],
+    "vi": [
+     "Google Maps"
+    ],
+    "yi": [
+     "Google Maps"
+    ],
+    "zh-Hans": [
+     "Google 地图"
+    ],
+    "zh-Hant": [
+     "Google 地圖"
+    ]
+   }
+  },
+  {
+   "en": "Times Square",
+   "kind": "place",
+   "wikidata": "Q11259",
+   "typed": [
+    "Try Times Square"
+   ],
+   "names": {
+    "ar": [
+     "تايمز سكوير"
+    ],
+    "bn": [
+     "টাইমস স্কয়ার"
+    ],
+    "de": [
+     "Times Square"
+    ],
+    "es": [
+     "Times Square"
+    ],
+    "fr": [
+     "Times Square"
+    ],
+    "gu": [
+     "Times Square"
+    ],
+    "he": [
+     "טיימס סקוור"
+    ],
+    "hi": [
+     "टाइम्स स्क्वायर"
+    ],
+    "ht": [
+     "Times Square"
+    ],
+    "it": [
+     "Times Square"
+    ],
+    "ja": [
+     "タイムズスクエア"
+    ],
+    "ko": [
+     "타임스 스퀘어"
+    ],
+    "pl": [
+     "Times Square"
+    ],
+    "pt": [
+     "Times Square"
+    ],
+    "ru": [
+     "Таймс-сквер"
+    ],
+    "tl": [
+     "Times Square"
+    ],
+    "uk": [
+     "Таймс-Сквер"
+    ],
+    "ur": [
+     "ٹائم اسکوائر"
+    ],
+    "vi": [
+     "Quảng trường Thời đại"
+    ],
+    "yi": [
+     "Times Square"
+    ],
+    "zh-Hans": [
+     "时代广场"
+    ],
+    "zh-Hant": [
+     "時代廣場"
+    ]
+   }
+  },
+  {
+   "en": "New York Metropolitan Area",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "منطقة نيويورك الكبرى"
+    ],
+    "bn": [
+     "নিউ ইয়র্ক মেট্রোপলিটন এলাকা"
+    ],
+    "de": [
+     "Großraum New York"
+    ],
+    "es": [
+     "Área metropolitana de Nueva York"
+    ],
+    "fr": [
+     "Agglomération de New York"
+    ],
+    "gu": [
+     "ન્યૂ યોર્ક મેટ્રોપોલિટન વિસ્તાર"
+    ],
+    "he": [
+     "מטרופולין ניו יורק"
+    ],
+    "hi": [
+     "न्यूयॉर्क महानगर क्षेत्र"
+    ],
+    "ht": [
+     "Rejyon metwopoliten Nouyòk"
+    ],
+    "it": [
+     "Area metropolitana di New York"
+    ],
+    "ja": [
+     "ニューヨーク都市圏"
+    ],
+    "ko": [
+     "뉴욕 대도시권"
+    ],
+    "pl": [
+     "Aglomeracja nowojorska"
+    ],
+    "pt": [
+     "Região Metropolitana de Nova York"
+    ],
+    "ru": [
+     "Нью-Йоркская агломерация"
+    ],
+    "tl": [
+     "Kalakhang New York"
+    ],
+    "uk": [
+     "Нью-Йоркська агломерація"
+    ],
+    "ur": [
+     "نیو یارک میٹروپولیٹن علاقہ"
+    ],
+    "vi": [
+     "Vùng đô thị New York"
+    ],
+    "yi": [
+     "גרויס־ניו־יאָרק"
+    ],
+    "zh-Hans": [
+     "纽约都会区"
+    ],
+    "zh-Hant": [
+     "紐約都會區"
+    ]
+   }
+  },
+  {
+   "en": "Philadelphia Metropolitan Area",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "منطقة فيلادلفيا الكبرى"
+    ],
+    "bn": [
+     "ফিলাডেলফিয়া মেট্রোপলিটন এলাকা"
+    ],
+    "de": [
+     "Großraum Philadelphia"
+    ],
+    "es": [
+     "Área metropolitana de Filadelfia"
+    ],
+    "fr": [
+     "Agglomération de Philadelphie"
+    ],
+    "gu": [
+     "ફિલાડેલ્ફિયા મેટ્રોપોલિટન વિસ્તાર"
+    ],
+    "he": [
+     "מטרופולין פילדלפיה"
+    ],
+    "hi": [
+     "फ़िलाडेल्फ़िया महानगर क्षेत्र"
+    ],
+    "ht": [
+     "Rejyon metwopoliten Filadèlfi"
+    ],
+    "it": [
+     "Area metropolitana di Filadelfia"
+    ],
+    "ja": [
+     "フィラデルフィア都市圏"
+    ],
+    "ko": [
+     "필라델피아 대도시권"
+    ],
+    "pl": [
+     "Aglomeracja Filadelfii"
+    ],
+    "pt": [
+     "Região Metropolitana da Filadélfia"
+    ],
+    "ru": [
+     "Филадельфийская агломерация"
+    ],
+    "tl": [
+     "Kalakhang Philadelphia"
+    ],
+    "uk": [
+     "Філадельфійська агломерація"
+    ],
+    "ur": [
+     "فلاڈیلفیا میٹروپولیٹن علاقہ"
+    ],
+    "vi": [
+     "Vùng đô thị Philadelphia"
+    ],
+    "yi": [
+     "גרויס־פֿילאַדעלפֿיע"
+    ],
+    "zh-Hans": [
+     "费城都会区"
+    ],
+    "zh-Hant": [
+     "費城都會區"
+    ]
+   }
+  },
+  {
+   "en": "Greater Boston",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "بوسطن الكبرى"
+    ],
+    "bn": [
+     "গ্রেটার বোস্টন"
+    ],
+    "de": [
+     "Großraum Boston"
+    ],
+    "es": [
+     "Gran Boston"
+    ],
+    "fr": [
+     "Grand Boston"
+    ],
+    "gu": [
+     "ગ્રેટર બોસ્ટન"
+    ],
+    "he": [
+     "בוסטון רבתי"
+    ],
+    "hi": [
+     "ग्रेटर बोस्टन"
+    ],
+    "ht": [
+     "Gran Boston"
+    ],
+    "it": [
+     "Grande Boston"
+    ],
+    "ja": [
+     "グレーター・ボストン"
+    ],
+    "ko": [
+     "그레이터 보스턴"
+    ],
+    "pl": [
+     "Wielki Boston"
+    ],
+    "pt": [
+     "Grande Boston"
+    ],
+    "ru": [
+     "Большой Бостон"
+    ],
+    "tl": [
+     "Kalakhang Boston"
+    ],
+    "uk": [
+     "Великий Бостон"
+    ],
+    "ur": [
+     "گریٹر بوسٹن"
+    ],
+    "vi": [
+     "Đại Boston"
+    ],
+    "yi": [
+     "גרויס־באָסטאָן"
+    ],
+    "zh-Hans": [
+     "大波士顿"
+    ],
+    "zh-Hant": [
+     "大波士頓"
+    ]
+   }
+  },
+  {
+   "en": "Lehigh Valley",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "وادي ليهاي"
+    ],
+    "bn": [
+     "লিহাই ভ্যালি"
+    ],
+    "de": [
+     "Lehigh Valley"
+    ],
+    "es": [
+     "Valle de Lehigh"
+    ],
+    "fr": [
+     "Vallée de la Lehigh"
+    ],
+    "gu": [
+     "લીહાઈ વેલી"
+    ],
+    "he": [
+     "עמק ליהיי"
+    ],
+    "hi": [
+     "लीहाई वैली"
+    ],
+    "ht": [
+     "Lehigh Valley"
+    ],
+    "it": [
+     "Lehigh Valley"
+    ],
+    "ja": [
+     "リーハイバレー"
+    ],
+    "ko": [
+     "리하이 밸리"
+    ],
+    "pl": [
+     "Dolina Lehigh"
+    ],
+    "pt": [
+     "Vale do Lehigh"
+    ],
+    "ru": [
+     "Долина Лихай"
+    ],
+    "tl": [
+     "Lehigh Valley"
+    ],
+    "uk": [
+     "Долина Лігай"
+    ],
+    "ur": [
+     "لیہائی ویلی"
+    ],
+    "vi": [
+     "Thung lũng Lehigh"
+    ],
+    "yi": [
+     "ליהײַ־טאָל"
+    ],
+    "zh-Hans": [
+     "利哈伊谷"
+    ],
+    "zh-Hant": [
+     "利哈伊谷"
+    ]
+   }
+  },
+  {
+   "en": "New York City",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مدينة نيويورك"
+    ],
+    "bn": [
+     "নিউ ইয়র্ক সিটি"
+    ],
+    "de": [
+     "New York City"
+    ],
+    "es": [
+     "Ciudad de Nueva York"
+    ],
+    "fr": [
+     "Ville de New York"
+    ],
+    "gu": [
+     "ન્યૂ યોર્ક સિટી"
+    ],
+    "he": [
+     "העיר ניו יורק"
+    ],
+    "hi": [
+     "न्यूयॉर्क शहर"
+    ],
+    "ht": [
+     "Vil Nouyòk"
+    ],
+    "it": [
+     "New York City"
+    ],
+    "ja": [
+     "ニューヨーク市"
+    ],
+    "ko": [
+     "뉴욕시"
+    ],
+    "pl": [
+     "Nowy Jork"
+    ],
+    "pt": [
+     "Cidade de Nova York"
+    ],
+    "ru": [
+     "Нью-Йорк"
+    ],
+    "tl": [
+     "Lungsod ng New York"
+    ],
+    "uk": [
+     "Нью-Йорк"
+    ],
+    "ur": [
+     "نیو یارک سٹی"
+    ],
+    "vi": [
+     "Thành phố New York"
+    ],
+    "yi": [
+     "ניו־יאָרק סיטי"
+    ],
+    "zh-Hans": [
+     "纽约市"
+    ],
+    "zh-Hant": [
+     "紐約市"
+    ]
+   }
+  },
+  {
+   "en": "Long Island",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "لونغ آيلاند"
+    ],
+    "bn": [
+     "লং আইল্যান্ড"
+    ],
+    "de": [
+     "Long Island"
+    ],
+    "es": [
+     "Long Island"
+    ],
+    "fr": [
+     "Long Island"
+    ],
+    "gu": [
+     "લોંગ આઇલેન્ડ"
+    ],
+    "he": [
+     "לונג איילנד"
+    ],
+    "hi": [
+     "लॉन्ग आइलैंड"
+    ],
+    "ht": [
+     "Long Island"
+    ],
+    "it": [
+     "Long Island"
+    ],
+    "ja": [
+     "ロングアイランド"
+    ],
+    "ko": [
+     "롱아일랜드"
+    ],
+    "pl": [
+     "Long Island"
+    ],
+    "pt": [
+     "Long Island"
+    ],
+    "ru": [
+     "Лонг-Айленд"
+    ],
+    "tl": [
+     "Long Island"
+    ],
+    "uk": [
+     "Лонг-Айленд"
+    ],
+    "ur": [
+     "لانگ آئی لینڈ"
+    ],
+    "vi": [
+     "Long Island"
+    ],
+    "yi": [
+     "לאָנג־אייַלאַנד"
+    ],
+    "zh-Hans": [
+     "长岛"
+    ],
+    "zh-Hant": [
+     "長島"
+    ]
+   }
+  },
+  {
+   "en": "Hudson Valley",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "وادي هدسون"
+    ],
+    "bn": [
+     "হাডসন ভ্যালি"
+    ],
+    "de": [
+     "Hudson Valley"
+    ],
+    "es": [
+     "Valle del Hudson"
+    ],
+    "fr": [
+     "Vallée de l’Hudson"
+    ],
+    "gu": [
+     "હડસન વેલી"
+    ],
+    "he": [
+     "עמק ההדסון"
+    ],
+    "hi": [
+     "हडसन वैली"
+    ],
+    "ht": [
+     "Hudson Valley"
+    ],
+    "it": [
+     "Hudson Valley"
+    ],
+    "ja": [
+     "ハドソンバレー"
+    ],
+    "ko": [
+     "허드슨 밸리"
+    ],
+    "pl": [
+     "Dolina Hudsonu"
+    ],
+    "pt": [
+     "Vale do Hudson"
+    ],
+    "ru": [
+     "Долина Гудзона"
+    ],
+    "tl": [
+     "Hudson Valley"
+    ],
+    "uk": [
+     "Долина Гудзону"
+    ],
+    "ur": [
+     "ہڈسن ویلی"
+    ],
+    "vi": [
+     "Thung lũng Hudson"
+    ],
+    "yi": [
+     "הודסאָן־טאָל"
+    ],
+    "zh-Hans": [
+     "哈德逊河谷"
+    ],
+    "zh-Hant": [
+     "哈德遜河谷"
+    ]
+   }
+  },
+  {
+   "en": "Northern New Jersey",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "شمال نيوجيرسي"
+    ],
+    "bn": [
+     "উত্তর নিউ জার্সি"
+    ],
+    "de": [
+     "Nördliches New Jersey"
+    ],
+    "es": [
+     "Norte de Nueva Jersey"
+    ],
+    "fr": [
+     "Nord du New Jersey"
+    ],
+    "gu": [
+     "ઉત્તર ન્યૂ જર્સી"
+    ],
+    "he": [
+     "צפון ניו ג׳רזי"
+    ],
+    "hi": [
+     "उत्तरी न्यू जर्सी"
+    ],
+    "ht": [
+     "Nò New Jersey"
+    ],
+    "it": [
+     "New Jersey settentrionale"
+    ],
+    "ja": [
+     "ニュージャージー州北部"
+    ],
+    "ko": [
+     "뉴저지 북부"
+    ],
+    "pl": [
+     "Północne New Jersey"
+    ],
+    "pt": [
+     "Norte de Nova Jersey"
+    ],
+    "ru": [
+     "Северный Нью-Джерси"
+    ],
+    "tl": [
+     "Hilagang New Jersey"
+    ],
+    "uk": [
+     "Північний Нью-Джерсі"
+    ],
+    "ur": [
+     "شمالی نیو جرسی"
+    ],
+    "vi": [
+     "Bắc New Jersey"
+    ],
+    "yi": [
+     "צפֿון־ניו־דזשערזי"
+    ],
+    "zh-Hans": [
+     "新泽西州北部"
+    ],
+    "zh-Hant": [
+     "紐澤西北部"
+    ]
+   }
+  },
+  {
+   "en": "Central New Jersey",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "وسط نيوجيرسي"
+    ],
+    "bn": [
+     "মধ্য নিউ জার্সি"
+    ],
+    "de": [
+     "Zentrales New Jersey"
+    ],
+    "es": [
+     "Centro de Nueva Jersey"
+    ],
+    "fr": [
+     "Centre du New Jersey"
+    ],
+    "gu": [
+     "મધ્ય ન્યૂ જર્સી"
+    ],
+    "he": [
+     "מרכז ניו ג׳רזי"
+    ],
+    "hi": [
+     "मध्य न्यू जर्सी"
+    ],
+    "ht": [
+     "Sant New Jersey"
+    ],
+    "it": [
+     "New Jersey centrale"
+    ],
+    "ja": [
+     "ニュージャージー州中部"
+    ],
+    "ko": [
+     "뉴저지 중부"
+    ],
+    "pl": [
+     "Środkowe New Jersey"
+    ],
+    "pt": [
+     "Centro de Nova Jersey"
+    ],
+    "ru": [
+     "Центральный Нью-Джерси"
+    ],
+    "tl": [
+     "Gitnang New Jersey"
+    ],
+    "uk": [
+     "Центральний Нью-Джерсі"
+    ],
+    "ur": [
+     "وسطی نیو جرسی"
+    ],
+    "vi": [
+     "Trung New Jersey"
+    ],
+    "yi": [
+     "צענטראַל־ניו־דזשערזי"
+    ],
+    "zh-Hans": [
+     "新泽西州中部"
+    ],
+    "zh-Hant": [
+     "紐澤西中部"
+    ]
+   }
+  },
+  {
+   "en": "South Jersey",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "جنوب نيوجيرسي"
+    ],
+    "bn": [
+     "সাউথ জার্সি"
+    ],
+    "de": [
+     "South Jersey"
+    ],
+    "es": [
+     "Sur de Nueva Jersey"
+    ],
+    "fr": [
+     "Sud du New Jersey"
+    ],
+    "gu": [
+     "સાઉથ જર્સી"
+    ],
+    "he": [
+     "דרום ג׳רזי"
+    ],
+    "hi": [
+     "दक्षिणी न्यू जर्सी"
+    ],
+    "ht": [
+     "Sid New Jersey"
+    ],
+    "it": [
+     "New Jersey meridionale"
+    ],
+    "ja": [
+     "サウスジャージー"
+    ],
+    "ko": [
+     "사우스저지"
+    ],
+    "pl": [
+     "Południowe New Jersey"
+    ],
+    "pt": [
+     "Sul de Nova Jersey"
+    ],
+    "ru": [
+     "Южный Нью-Джерси"
+    ],
+    "tl": [
+     "Timog New Jersey"
+    ],
+    "uk": [
+     "Південний Нью-Джерсі"
+    ],
+    "ur": [
+     "جنوبی جرسی"
+    ],
+    "vi": [
+     "Nam New Jersey"
+    ],
+    "yi": [
+     "דרום־דזשערזי"
+    ],
+    "zh-Hans": [
+     "南泽西"
+    ],
+    "zh-Hant": [
+     "南紐澤西"
+    ]
+   }
+  },
+  {
+   "en": "Philadelphia",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "فيلادلفيا"
+    ],
+    "bn": [
+     "ফিলাডেলফিয়া"
+    ],
+    "de": [
+     "Philadelphia"
+    ],
+    "es": [
+     "Filadelfia"
+    ],
+    "fr": [
+     "Philadelphie"
+    ],
+    "gu": [
+     "ફિલાડેલ્ફિયા"
+    ],
+    "he": [
+     "פילדלפיה"
+    ],
+    "hi": [
+     "फ़िलाडेल्फ़िया"
+    ],
+    "ht": [
+     "Filadèlfi"
+    ],
+    "it": [
+     "Filadelfia"
+    ],
+    "ja": [
+     "フィラデルフィア"
+    ],
+    "ko": [
+     "필라델피아"
+    ],
+    "pl": [
+     "Filadelfia"
+    ],
+    "pt": [
+     "Filadélfia"
+    ],
+    "ru": [
+     "Филадельфия"
+    ],
+    "tl": [
+     "Philadelphia"
+    ],
+    "uk": [
+     "Філадельфія"
+    ],
+    "ur": [
+     "فلاڈیلفیا"
+    ],
+    "vi": [
+     "Philadelphia"
+    ],
+    "yi": [
+     "פֿילאַדעלפֿיע"
+    ],
+    "zh-Hans": [
+     "费城"
+    ],
+    "zh-Hant": [
+     "費城"
+    ]
+   }
+  },
+  {
+   "en": "Delaware",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "ديلاوير"
+    ],
+    "bn": [
+     "ডেলাওয়্যার"
+    ],
+    "de": [
+     "Delaware"
+    ],
+    "es": [
+     "Delaware"
+    ],
+    "fr": [
+     "Delaware"
+    ],
+    "gu": [
+     "ડેલાવેર"
+    ],
+    "he": [
+     "דלאוור"
+    ],
+    "hi": [
+     "डेलावेयर"
+    ],
+    "ht": [
+     "Delaware"
+    ],
+    "it": [
+     "Delaware"
+    ],
+    "ja": [
+     "デラウェア州"
+    ],
+    "ko": [
+     "델라웨어"
+    ],
+    "pl": [
+     "Delaware"
+    ],
+    "pt": [
+     "Delaware"
+    ],
+    "ru": [
+     "Делавэр"
+    ],
+    "tl": [
+     "Delaware"
+    ],
+    "uk": [
+     "Делавер"
+    ],
+    "ur": [
+     "ڈیلاویئر"
+    ],
+    "vi": [
+     "Delaware"
+    ],
+    "yi": [
+     "דעלאַווער"
+    ],
+    "zh-Hans": [
+     "特拉华州"
+    ],
+    "zh-Hant": [
+     "德拉瓦州"
+    ]
+   }
+  },
+  {
+   "en": "Connecticut",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "كونيتيكت"
+    ],
+    "bn": [
+     "কানেকটিকাট"
+    ],
+    "de": [
+     "Connecticut"
+    ],
+    "es": [
+     "Connecticut"
+    ],
+    "fr": [
+     "Connecticut"
+    ],
+    "gu": [
+     "કનેક્ટિકટ"
+    ],
+    "he": [
+     "קונטיקט"
+    ],
+    "hi": [
+     "कनेक्टिकट"
+    ],
+    "ht": [
+     "Connecticut"
+    ],
+    "it": [
+     "Connecticut"
+    ],
+    "ja": [
+     "コネチカット州"
+    ],
+    "ko": [
+     "코네티컷"
+    ],
+    "pl": [
+     "Connecticut"
+    ],
+    "pt": [
+     "Connecticut"
+    ],
+    "ru": [
+     "Коннектикут"
+    ],
+    "tl": [
+     "Connecticut"
+    ],
+    "uk": [
+     "Коннектикут"
+    ],
+    "ur": [
+     "کنیکٹیکٹ"
+    ],
+    "vi": [
+     "Connecticut"
+    ],
+    "yi": [
+     "קאָנעטיקעט"
+    ],
+    "zh-Hans": [
+     "康涅狄格州"
+    ],
+    "zh-Hant": [
+     "康乃狄克州"
+    ]
+   }
+  },
+  {
+   "en": "Greater Hartford",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "هارتفورد الكبرى"
+    ],
+    "bn": [
+     "গ্রেটার হার্টফোর্ড"
+    ],
+    "de": [
+     "Großraum Hartford"
+    ],
+    "es": [
+     "Gran Hartford"
+    ],
+    "fr": [
+     "Grand Hartford"
+    ],
+    "gu": [
+     "ગ્રેટર હાર્ટફોર્ડ"
+    ],
+    "he": [
+     "הרטפורד רבתי"
+    ],
+    "hi": [
+     "ग्रेटर हार्टफ़ोर्ड"
+    ],
+    "ht": [
+     "Gran Hartford"
+    ],
+    "it": [
+     "Grande Hartford"
+    ],
+    "ja": [
+     "グレーター・ハートフォード"
+    ],
+    "ko": [
+     "그레이터 하트퍼드"
+    ],
+    "pl": [
+     "Wielki Hartford"
+    ],
+    "pt": [
+     "Grande Hartford"
+    ],
+    "ru": [
+     "Большой Хартфорд"
+    ],
+    "tl": [
+     "Kalakhang Hartford"
+    ],
+    "uk": [
+     "Великий Гартфорд"
+    ],
+    "ur": [
+     "گریٹر ہارٹفورڈ"
+    ],
+    "vi": [
+     "Đại Hartford"
+    ],
+    "yi": [
+     "גרויס־האַרטפֿאָרד"
+    ],
+    "zh-Hans": [
+     "大哈特福德"
+    ],
+    "zh-Hant": [
+     "大哈特福"
+    ]
+   }
+  },
+  {
+   "en": "Hartford",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "هارتفورد"
+    ],
+    "bn": [
+     "হার্টফোর্ড"
+    ],
+    "de": [
+     "Hartford"
+    ],
+    "es": [
+     "Hartford"
+    ],
+    "fr": [
+     "Hartford"
+    ],
+    "gu": [
+     "હાર્ટફોર્ડ"
+    ],
+    "he": [
+     "הרטפורד"
+    ],
+    "hi": [
+     "हार्टफ़ोर्ड"
+    ],
+    "ht": [
+     "Hartford"
+    ],
+    "it": [
+     "Hartford"
+    ],
+    "ja": [
+     "ハートフォード"
+    ],
+    "ko": [
+     "하트퍼드"
+    ],
+    "pl": [
+     "Hartford"
+    ],
+    "pt": [
+     "Hartford"
+    ],
+    "ru": [
+     "Хартфорд"
+    ],
+    "tl": [
+     "Hartford"
+    ],
+    "uk": [
+     "Гартфорд"
+    ],
+    "ur": [
+     "ہارٹفورڈ"
+    ],
+    "vi": [
+     "Hartford"
+    ],
+    "yi": [
+     "האַרטפֿאָרד"
+    ],
+    "zh-Hans": [
+     "哈特福德"
+    ],
+    "zh-Hant": [
+     "哈特福"
+    ]
+   }
+  },
+  {
+   "en": "Northeastern Connecticut",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "شمال شرق كونيتيكت"
+    ],
+    "bn": [
+     "উত্তর-পূর্ব কানেকটিকাট"
+    ],
+    "de": [
+     "Nordost-Connecticut"
+    ],
+    "es": [
+     "Noreste de Connecticut"
+    ],
+    "fr": [
+     "Nord-est du Connecticut"
+    ],
+    "gu": [
+     "ઉત્તરપૂર્વ કનેક્ટિકટ"
+    ],
+    "he": [
+     "צפון מזרח קונטיקט"
+    ],
+    "hi": [
+     "उत्तर-पूर्वी कनेक्टिकट"
+    ],
+    "ht": [
+     "Nòdès Connecticut"
+    ],
+    "it": [
+     "Connecticut nord-orientale"
+    ],
+    "ja": [
+     "コネチカット州北東部"
+    ],
+    "ko": [
+     "코네티컷 북동부"
+    ],
+    "pl": [
+     "Północno-wschodnie Connecticut"
+    ],
+    "pt": [
+     "Nordeste de Connecticut"
+    ],
+    "ru": [
+     "Северо-Восточный Коннектикут"
+    ],
+    "tl": [
+     "Hilagang-silangang Connecticut"
+    ],
+    "uk": [
+     "Північно-Східний Коннектикут"
+    ],
+    "ur": [
+     "شمال مشرقی کنیکٹیکٹ"
+    ],
+    "vi": [
+     "Đông Bắc Connecticut"
+    ],
+    "yi": [
+     "צפֿון־מיזרח־קאָנעטיקעט"
+    ],
+    "zh-Hans": [
+     "康涅狄格州东北部"
+    ],
+    "zh-Hant": [
+     "康乃狄克東北部"
+    ]
+   }
+  },
+  {
+   "en": "Northwest Hills",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "نورث ويست هيلز"
+    ],
+    "bn": [
+     "নর্থওয়েস্ট হিলস"
+    ],
+    "de": [
+     "Northwest Hills"
+    ],
+    "es": [
+     "Northwest Hills"
+    ],
+    "fr": [
+     "Northwest Hills"
+    ],
+    "gu": [
+     "નોર્થવેસ્ટ હિલ્સ"
+    ],
+    "he": [
+     "נורת׳וסט הילס"
+    ],
+    "hi": [
+     "नॉर्थवेस्ट हिल्स"
+    ],
+    "ht": [
+     "Northwest Hills"
+    ],
+    "it": [
+     "Northwest Hills"
+    ],
+    "ja": [
+     "ノースウェストヒルズ"
+    ],
+    "ko": [
+     "노스웨스트 힐스"
+    ],
+    "pl": [
+     "Northwest Hills"
+    ],
+    "pt": [
+     "Northwest Hills"
+    ],
+    "ru": [
+     "Нортуэст-Хиллс"
+    ],
+    "tl": [
+     "Northwest Hills"
+    ],
+    "uk": [
+     "Нортвест-Гіллс"
+    ],
+    "ur": [
+     "نارتھ ویسٹ ہلز"
+    ],
+    "vi": [
+     "Northwest Hills"
+    ],
+    "yi": [
+     "נאָרטוועסט־הילס"
+    ],
+    "zh-Hans": [
+     "西北丘陵"
+    ],
+    "zh-Hant": [
+     "西北丘陵"
+    ]
+   }
+  },
+  {
+   "en": "Boston",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "بوسطن"
+    ],
+    "bn": [
+     "বোস্টন"
+    ],
+    "de": [
+     "Boston"
+    ],
+    "es": [
+     "Boston"
+    ],
+    "fr": [
+     "Boston"
+    ],
+    "gu": [
+     "બોસ્ટન"
+    ],
+    "he": [
+     "בוסטון"
+    ],
+    "hi": [
+     "बोस्टन"
+    ],
+    "ht": [
+     "Boston"
+    ],
+    "it": [
+     "Boston"
+    ],
+    "ja": [
+     "ボストン"
+    ],
+    "ko": [
+     "보스턴"
+    ],
+    "pl": [
+     "Boston"
+    ],
+    "pt": [
+     "Boston"
+    ],
+    "ru": [
+     "Бостон"
+    ],
+    "tl": [
+     "Boston"
+    ],
+    "uk": [
+     "Бостон"
+    ],
+    "ur": [
+     "بوسٹن"
+    ],
+    "vi": [
+     "Boston"
+    ],
+    "yi": [
+     "באָסטאָן"
+    ],
+    "zh-Hans": [
+     "波士顿"
+    ],
+    "zh-Hant": [
+     "波士頓"
+    ]
+   }
+  },
+  {
+   "en": "North Shore",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "نورث شور"
+    ],
+    "bn": [
+     "নর্থ শোর"
+    ],
+    "de": [
+     "North Shore"
+    ],
+    "es": [
+     "North Shore"
+    ],
+    "fr": [
+     "North Shore"
+    ],
+    "gu": [
+     "નોર્થ શોર"
+    ],
+    "he": [
+     "נורת׳ שור"
+    ],
+    "hi": [
+     "नॉर्थ शोर"
+    ],
+    "ht": [
+     "North Shore"
+    ],
+    "it": [
+     "North Shore"
+    ],
+    "ja": [
+     "ノースショア"
+    ],
+    "ko": [
+     "노스쇼어"
+    ],
+    "pl": [
+     "North Shore"
+    ],
+    "pt": [
+     "North Shore"
+    ],
+    "ru": [
+     "Норт-Шор"
+    ],
+    "tl": [
+     "North Shore"
+    ],
+    "uk": [
+     "Норт-Шор"
+    ],
+    "ur": [
+     "نارتھ شور"
+    ],
+    "vi": [
+     "North Shore"
+    ],
+    "yi": [
+     "נאָרט־שאָר"
+    ],
+    "zh-Hans": [
+     "北岸"
+    ],
+    "zh-Hant": [
+     "北岸"
+    ]
+   }
+  },
+  {
+   "en": "South Shore",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "ساوث شور"
+    ],
+    "bn": [
+     "সাউথ শোর"
+    ],
+    "de": [
+     "South Shore"
+    ],
+    "es": [
+     "South Shore"
+    ],
+    "fr": [
+     "South Shore"
+    ],
+    "gu": [
+     "સાઉથ શોર"
+    ],
+    "he": [
+     "סאות׳ שור"
+    ],
+    "hi": [
+     "साउथ शोर"
+    ],
+    "ht": [
+     "South Shore"
+    ],
+    "it": [
+     "South Shore"
+    ],
+    "ja": [
+     "サウスショア"
+    ],
+    "ko": [
+     "사우스쇼어"
+    ],
+    "pl": [
+     "South Shore"
+    ],
+    "pt": [
+     "South Shore"
+    ],
+    "ru": [
+     "Саут-Шор"
+    ],
+    "tl": [
+     "South Shore"
+    ],
+    "uk": [
+     "Саут-Шор"
+    ],
+    "ur": [
+     "ساؤتھ شور"
+    ],
+    "vi": [
+     "South Shore"
+    ],
+    "yi": [
+     "סאַוט־שאָר"
+    ],
+    "zh-Hans": [
+     "南岸"
+    ],
+    "zh-Hant": [
+     "南岸"
+    ]
+   }
+  },
+  {
+   "en": "Central Massachusetts",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "وسط ماساتشوستس"
+    ],
+    "bn": [
+     "মধ্য ম্যাসাচুসেটস"
+    ],
+    "de": [
+     "Zentral-Massachusetts"
+    ],
+    "es": [
+     "Centro de Massachusetts"
+    ],
+    "fr": [
+     "Centre du Massachusetts"
+    ],
+    "gu": [
+     "મધ્ય મેસેચ્યુસેટ્સ"
+    ],
+    "he": [
+     "מרכז מסצ׳וסטס"
+    ],
+    "hi": [
+     "मध्य मैसाचुसेट्स"
+    ],
+    "ht": [
+     "Sant Massachusetts"
+    ],
+    "it": [
+     "Massachusetts centrale"
+    ],
+    "ja": [
+     "マサチューセッツ州中部"
+    ],
+    "ko": [
+     "매사추세츠 중부"
+    ],
+    "pl": [
+     "Środkowy Massachusetts"
+    ],
+    "pt": [
+     "Centro de Massachusetts"
+    ],
+    "ru": [
+     "Центральный Массачусетс"
+    ],
+    "tl": [
+     "Gitnang Massachusetts"
+    ],
+    "uk": [
+     "Центральний Массачусетс"
+    ],
+    "ur": [
+     "وسطی میساچوسٹس"
+    ],
+    "vi": [
+     "Trung Massachusetts"
+    ],
+    "yi": [
+     "צענטראַל־מאַסאַטשוסעטס"
+    ],
+    "zh-Hans": [
+     "马萨诸塞州中部"
+    ],
+    "zh-Hant": [
+     "麻州中部"
+    ]
+   }
+  },
+  {
+   "en": "Western Massachusetts",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "غرب ماساتشوستس"
+    ],
+    "bn": [
+     "পশ্চিম ম্যাসাচুসেটস"
+    ],
+    "de": [
+     "West-Massachusetts"
+    ],
+    "es": [
+     "Oeste de Massachusetts"
+    ],
+    "fr": [
+     "Ouest du Massachusetts"
+    ],
+    "gu": [
+     "પશ્ચિમ મેસેચ્યુસેટ્સ"
+    ],
+    "he": [
+     "מערב מסצ׳וסטס"
+    ],
+    "hi": [
+     "पश्चिमी मैसाचुसेट्स"
+    ],
+    "ht": [
+     "Lwès Massachusetts"
+    ],
+    "it": [
+     "Massachusetts occidentale"
+    ],
+    "ja": [
+     "マサチューセッツ州西部"
+    ],
+    "ko": [
+     "매사추세츠 서부"
+    ],
+    "pl": [
+     "Zachodni Massachusetts"
+    ],
+    "pt": [
+     "Oeste de Massachusetts"
+    ],
+    "ru": [
+     "Западный Массачусетс"
+    ],
+    "tl": [
+     "Kanlurang Massachusetts"
+    ],
+    "uk": [
+     "Західний Массачусетс"
+    ],
+    "ur": [
+     "مغربی میساچوسٹس"
+    ],
+    "vi": [
+     "Tây Massachusetts"
+    ],
+    "yi": [
+     "מערבֿ־מאַסאַטשוסעטס"
+    ],
+    "zh-Hans": [
+     "马萨诸塞州西部"
+    ],
+    "zh-Hant": [
+     "麻州西部"
+    ]
+   }
+  },
+  {
+   "en": "Pioneer Valley",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "وادي بايونير"
+    ],
+    "bn": [
+     "পাইওনিয়ার ভ্যালি"
+    ],
+    "de": [
+     "Pioneer Valley"
+    ],
+    "es": [
+     "Pioneer Valley"
+    ],
+    "fr": [
+     "Pioneer Valley"
+    ],
+    "gu": [
+     "પાયોનિયર વેલી"
+    ],
+    "he": [
+     "עמק פיוניר"
+    ],
+    "hi": [
+     "पायनियर वैली"
+    ],
+    "ht": [
+     "Pioneer Valley"
+    ],
+    "it": [
+     "Pioneer Valley"
+    ],
+    "ja": [
+     "パイオニアバレー"
+    ],
+    "ko": [
+     "파이어니어 밸리"
+    ],
+    "pl": [
+     "Pioneer Valley"
+    ],
+    "pt": [
+     "Pioneer Valley"
+    ],
+    "ru": [
+     "Долина Пайонир"
+    ],
+    "tl": [
+     "Pioneer Valley"
+    ],
+    "uk": [
+     "Долина Пайонір"
+    ],
+    "ur": [
+     "پائنیر ویلی"
+    ],
+    "vi": [
+     "Pioneer Valley"
+    ],
+    "yi": [
+     "פּיאָנער־טאָל"
+    ],
+    "zh-Hans": [
+     "先锋谷"
+    ],
+    "zh-Hant": [
+     "先鋒谷"
+    ]
+   }
+  },
+  {
+   "en": "The Berkshires",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "بيركشاير"
+    ],
+    "bn": [
+     "বার্কশায়ার"
+    ],
+    "de": [
+     "Berkshires"
+    ],
+    "es": [
+     "Berkshires"
+    ],
+    "fr": [
+     "Berkshires"
+    ],
+    "gu": [
+     "બર્કશાયર"
+    ],
+    "he": [
+     "ברקשייר"
+    ],
+    "hi": [
+     "बर्कशायर"
+    ],
+    "ht": [
+     "Berkshires"
+    ],
+    "it": [
+     "Berkshires"
+    ],
+    "ja": [
+     "バークシャー地方"
+    ],
+    "ko": [
+     "버크셔"
+    ],
+    "pl": [
+     "Berkshires"
+    ],
+    "pt": [
+     "Berkshires"
+    ],
+    "ru": [
+     "Беркшир"
+    ],
+    "tl": [
+     "Berkshires"
+    ],
+    "uk": [
+     "Беркшир"
+    ],
+    "ur": [
+     "برکشائر"
+    ],
+    "vi": [
+     "Berkshires"
+    ],
+    "yi": [
+     "בערקשיר"
+    ],
+    "zh-Hans": [
+     "伯克希尔地区"
+    ],
+    "zh-Hant": [
+     "伯克夏地區"
+    ]
+   }
+  },
+  {
+   "en": "Cape Cod",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "كيب كود"
+    ],
+    "bn": [
+     "কেপ কড"
+    ],
+    "de": [
+     "Cape Cod"
+    ],
+    "es": [
+     "Cabo Cod"
+    ],
+    "fr": [
+     "Cap Cod"
+    ],
+    "gu": [
+     "કેપ કોડ"
+    ],
+    "he": [
+     "קייפ קוד"
+    ],
+    "hi": [
+     "केप कॉड"
+    ],
+    "ht": [
+     "Cape Cod"
+    ],
+    "it": [
+     "Cape Cod"
+    ],
+    "ja": [
+     "ケープコッド"
+    ],
+    "ko": [
+     "케이프코드"
+    ],
+    "pl": [
+     "Cape Cod"
+    ],
+    "pt": [
+     "Cape Cod"
+    ],
+    "ru": [
+     "Кейп-Код"
+    ],
+    "tl": [
+     "Cape Cod"
+    ],
+    "uk": [
+     "Кейп-Код"
+    ],
+    "ur": [
+     "کیپ کوڈ"
+    ],
+    "vi": [
+     "Cape Cod"
+    ],
+    "yi": [
+     "קייפּ קאָד"
+    ],
+    "zh-Hans": [
+     "科德角"
+    ],
+    "zh-Hant": [
+     "鱈魚角"
+    ]
+   }
+  },
+  {
+   "en": "Rhode Island",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "رود آيلاند"
+    ],
+    "bn": [
+     "রোড আইল্যান্ড"
+    ],
+    "de": [
+     "Rhode Island"
+    ],
+    "es": [
+     "Rhode Island"
+    ],
+    "fr": [
+     "Rhode Island"
+    ],
+    "gu": [
+     "રોડ આઇલેન્ડ"
+    ],
+    "he": [
+     "רוד איילנד"
+    ],
+    "hi": [
+     "रोड आइलैंड"
+    ],
+    "ht": [
+     "Rhode Island"
+    ],
+    "it": [
+     "Rhode Island"
+    ],
+    "ja": [
+     "ロードアイランド州"
+    ],
+    "ko": [
+     "로드아일랜드"
+    ],
+    "pl": [
+     "Rhode Island"
+    ],
+    "pt": [
+     "Rhode Island"
+    ],
+    "ru": [
+     "Род-Айленд"
+    ],
+    "tl": [
+     "Rhode Island"
+    ],
+    "uk": [
+     "Род-Айленд"
+    ],
+    "ur": [
+     "رہوڈ آئی لینڈ"
+    ],
+    "vi": [
+     "Rhode Island"
+    ],
+    "yi": [
+     "ראָוד־אײַלאַנד"
+    ],
+    "zh-Hans": [
+     "罗得岛州"
+    ],
+    "zh-Hant": [
+     "羅德島州"
+    ]
+   }
+  },
+  {
+   "en": "New Hampshire",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "نيوهامبشير"
+    ],
+    "bn": [
+     "নিউ হ্যাম্পশায়ার"
+    ],
+    "de": [
+     "New Hampshire"
+    ],
+    "es": [
+     "Nuevo Hampshire"
+    ],
+    "fr": [
+     "New Hampshire"
+    ],
+    "gu": [
+     "ન્યૂ હેમ્પશાયર"
+    ],
+    "he": [
+     "ניו המפשייר"
+    ],
+    "hi": [
+     "न्यू हैम्पशायर"
+    ],
+    "ht": [
+     "New Hampshire"
+    ],
+    "it": [
+     "New Hampshire"
+    ],
+    "ja": [
+     "ニューハンプシャー州"
+    ],
+    "ko": [
+     "뉴햄프셔"
+    ],
+    "pl": [
+     "New Hampshire"
+    ],
+    "pt": [
+     "Nova Hampshire"
+    ],
+    "ru": [
+     "Нью-Гэмпшир"
+    ],
+    "tl": [
+     "New Hampshire"
+    ],
+    "uk": [
+     "Нью-Гемпшир"
+    ],
+    "ur": [
+     "نیو ہیمپشائر"
+    ],
+    "vi": [
+     "New Hampshire"
+    ],
+    "yi": [
+     "ניו־העמפּשיר"
+    ],
+    "zh-Hans": [
+     "新罕布什尔州"
+    ],
+    "zh-Hant": [
+     "新罕布夏州"
+    ]
+   }
+  },
+  {
+   "en": "Pike County, PA",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة بايك، بنسلفانيا"
+    ],
+    "bn": [
+     "Pike County, PA"
+    ],
+    "de": [
+     "Pike County, PA"
+    ],
+    "es": [
+     "Condado de Pike, PA"
+    ],
+    "fr": [
+     "Comté de Pike (Pennsylvanie)"
+    ],
+    "gu": [
+     "Pike County, PA"
+    ],
+    "he": [
+     "מחוז פייק, פנסילבניה"
+    ],
+    "hi": [
+     "Pike County, PA"
+    ],
+    "ht": [
+     "Pike County, PA"
+    ],
+    "it": [
+     "Pike County, Pennsylvania"
+    ],
+    "ja": [
+     "ペンシルベニア州パイク郡"
+    ],
+    "ko": [
+     "펜실베이니아주 파이크 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Pike (Pensylwania)"
+    ],
+    "pt": [
+     "Condado de Pike (PA)"
+    ],
+    "ru": [
+     "Округ Пайк (Пенсильвания)"
+    ],
+    "tl": [
+     "Pike County, PA"
+    ],
+    "uk": [
+     "Округ Пайк, Пенсильванія"
+    ],
+    "ur": [
+     "Pike County, PA"
+    ],
+    "vi": [
+     "Hạt Pike, PA"
+    ],
+    "yi": [
+     "Pike County, PA"
+    ],
+    "zh-Hans": [
+     "宾夕法尼亚州派克县"
+    ],
+    "zh-Hant": [
+     "賓州派克郡"
+    ]
+   }
+  },
+  {
+   "en": "Berks County, PA",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة بيركس، بنسلفانيا"
+    ],
+    "bn": [
+     "Berks County, PA"
+    ],
+    "de": [
+     "Berks County, PA"
+    ],
+    "es": [
+     "Condado de Berks, PA"
+    ],
+    "fr": [
+     "Comté de Berks (Pennsylvanie)"
+    ],
+    "gu": [
+     "Berks County, PA"
+    ],
+    "he": [
+     "מחוז בֶּרקס, פנסילבניה"
+    ],
+    "hi": [
+     "Berks County, PA"
+    ],
+    "ht": [
+     "Berks County, PA"
+    ],
+    "it": [
+     "Berks County, Pennsylvania"
+    ],
+    "ja": [
+     "ペンシルベニア州バークス郡"
+    ],
+    "ko": [
+     "펜실베이니아주 버크스 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Berks (Pensylwania)"
+    ],
+    "pt": [
+     "Condado de Berks (PA)"
+    ],
+    "ru": [
+     "Округ Беркс (Пенсильвания)"
+    ],
+    "tl": [
+     "Berks County, PA"
+    ],
+    "uk": [
+     "Округ Беркс, Пенсильванія"
+    ],
+    "ur": [
+     "Berks County, PA"
+    ],
+    "vi": [
+     "Hạt Berks, PA"
+    ],
+    "yi": [
+     "Berks County, PA"
+    ],
+    "zh-Hans": [
+     "宾夕法尼亚州伯克斯县"
+    ],
+    "zh-Hant": [
+     "賓州伯克斯郡"
+    ]
+   }
+  },
+  {
+   "en": "Lehigh County, PA",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة ليهاي، بنسلفانيا"
+    ],
+    "bn": [
+     "Lehigh County, PA"
+    ],
+    "de": [
+     "Lehigh County, PA"
+    ],
+    "es": [
+     "Condado de Lehigh, PA"
+    ],
+    "fr": [
+     "Comté de Lehigh (Pennsylvanie)"
+    ],
+    "gu": [
+     "Lehigh County, PA"
+    ],
+    "he": [
+     "מחוז ליהיי, פנסילבניה"
+    ],
+    "hi": [
+     "Lehigh County, PA"
+    ],
+    "ht": [
+     "Lehigh County, PA"
+    ],
+    "it": [
+     "Lehigh County, Pennsylvania"
+    ],
+    "ja": [
+     "ペンシルベニア州リーハイ郡"
+    ],
+    "ko": [
+     "펜실베이니아주 리하이 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Lehigh (Pensylwania)"
+    ],
+    "pt": [
+     "Condado de Lehigh (PA)"
+    ],
+    "ru": [
+     "Округ Лихай (Пенсильвания)"
+    ],
+    "tl": [
+     "Lehigh County, PA"
+    ],
+    "uk": [
+     "Округ Лігай, Пенсильванія"
+    ],
+    "ur": [
+     "Lehigh County, PA"
+    ],
+    "vi": [
+     "Hạt Lehigh, PA"
+    ],
+    "yi": [
+     "Lehigh County, PA"
+    ],
+    "zh-Hans": [
+     "宾夕法尼亚州利哈伊县"
+    ],
+    "zh-Hant": [
+     "賓州利哈伊郡"
+    ]
+   }
+  },
+  {
+   "en": "Northampton County, PA",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة نورثهامبتون، بنسلفانيا"
+    ],
+    "bn": [
+     "Northampton County, PA"
+    ],
+    "de": [
+     "Northampton County, PA"
+    ],
+    "es": [
+     "Condado de Northampton, PA"
+    ],
+    "fr": [
+     "Comté de Northampton (Pennsylvanie)"
+    ],
+    "gu": [
+     "Northampton County, PA"
+    ],
+    "he": [
+     "מחוז נורת׳המפטון, פנסילבניה"
+    ],
+    "hi": [
+     "Northampton County, PA"
+    ],
+    "ht": [
+     "Northampton County, PA"
+    ],
+    "it": [
+     "Northampton County, Pennsylvania"
+    ],
+    "ja": [
+     "ペンシルベニア州ノーサンプトン郡"
+    ],
+    "ko": [
+     "펜실베이니아주 노샘프턴 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Northampton (Pensylwania)"
+    ],
+    "pt": [
+     "Condado de Northampton (PA)"
+    ],
+    "ru": [
+     "Округ Нортгемптон (Пенсильвания)"
+    ],
+    "tl": [
+     "Northampton County, PA"
+    ],
+    "uk": [
+     "Округ Нортгемптон, Пенсильванія"
+    ],
+    "ur": [
+     "Northampton County, PA"
+    ],
+    "vi": [
+     "Hạt Northampton, PA"
+    ],
+    "yi": [
+     "Northampton County, PA"
+    ],
+    "zh-Hans": [
+     "宾夕法尼亚州北安普敦县"
+    ],
+    "zh-Hant": [
+     "賓州北安普敦郡"
+    ]
+   }
+  },
+  {
+   "en": "Carbon County, PA",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة كاربون، بنسلفانيا"
+    ],
+    "bn": [
+     "Carbon County, PA"
+    ],
+    "de": [
+     "Carbon County, PA"
+    ],
+    "es": [
+     "Condado de Carbon, PA"
+    ],
+    "fr": [
+     "Comté de Carbon (Pennsylvanie)"
+    ],
+    "gu": [
+     "Carbon County, PA"
+    ],
+    "he": [
+     "מחוז קרבון, פנסילבניה"
+    ],
+    "hi": [
+     "Carbon County, PA"
+    ],
+    "ht": [
+     "Carbon County, PA"
+    ],
+    "it": [
+     "Carbon County, Pennsylvania"
+    ],
+    "ja": [
+     "ペンシルベニア州カーボン郡"
+    ],
+    "ko": [
+     "펜실베이니아주 카본 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Carbon (Pensylwania)"
+    ],
+    "pt": [
+     "Condado de Carbon (PA)"
+    ],
+    "ru": [
+     "Округ Карбон (Пенсильвания)"
+    ],
+    "tl": [
+     "Carbon County, PA"
+    ],
+    "uk": [
+     "Округ Карбон, Пенсильванія"
+    ],
+    "ur": [
+     "Carbon County, PA"
+    ],
+    "vi": [
+     "Hạt Carbon, PA"
+    ],
+    "yi": [
+     "Carbon County, PA"
+    ],
+    "zh-Hans": [
+     "宾夕法尼亚州卡本县"
+    ],
+    "zh-Hant": [
+     "賓州卡本郡"
+    ]
+   }
+  },
+  {
+   "en": "Monroe County, PA",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة مونرو، بنسلفانيا"
+    ],
+    "bn": [
+     "Monroe County, PA"
+    ],
+    "de": [
+     "Monroe County, PA"
+    ],
+    "es": [
+     "Condado de Monroe, PA"
+    ],
+    "fr": [
+     "Comté de Monroe (Pennsylvanie)"
+    ],
+    "gu": [
+     "Monroe County, PA"
+    ],
+    "he": [
+     "מחוז מונרו, פנסילבניה"
+    ],
+    "hi": [
+     "Monroe County, PA"
+    ],
+    "ht": [
+     "Monroe County, PA"
+    ],
+    "it": [
+     "Monroe County, Pennsylvania"
+    ],
+    "ja": [
+     "ペンシルベニア州モンロー郡"
+    ],
+    "ko": [
+     "펜실베이니아주 먼로 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Monroe (Pensylwania)"
+    ],
+    "pt": [
+     "Condado de Monroe (PA)"
+    ],
+    "ru": [
+     "Округ Монро (Пенсильвания)"
+    ],
+    "tl": [
+     "Monroe County, PA"
+    ],
+    "uk": [
+     "Округ Монро, Пенсильванія"
+    ],
+    "ur": [
+     "Monroe County, PA"
+    ],
+    "vi": [
+     "Hạt Monroe, PA"
+    ],
+    "yi": [
+     "Monroe County, PA"
+    ],
+    "zh-Hans": [
+     "宾夕法尼亚州门罗县"
+    ],
+    "zh-Hant": [
+     "賓州門羅郡"
+    ]
+   }
+  },
+  {
+   "en": "Warren County, NJ",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة وارن، نيوجيرسي"
+    ],
+    "bn": [
+     "Warren County, NJ"
+    ],
+    "de": [
+     "Warren County, NJ"
+    ],
+    "es": [
+     "Condado de Warren, NJ"
+    ],
+    "fr": [
+     "Comté de Warren (New Jersey)"
+    ],
+    "gu": [
+     "Warren County, NJ"
+    ],
+    "he": [
+     "מחוז וורן, ניו ג׳רזי"
+    ],
+    "hi": [
+     "Warren County, NJ"
+    ],
+    "ht": [
+     "Warren County, NJ"
+    ],
+    "it": [
+     "Warren County, New Jersey"
+    ],
+    "ja": [
+     "ニュージャージー州ウォーレン郡"
+    ],
+    "ko": [
+     "뉴저지주 워런 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Warren (New Jersey)"
+    ],
+    "pt": [
+     "Condado de Warren (NJ)"
+    ],
+    "ru": [
+     "Округ Уоррен (Нью-Джерси)"
+    ],
+    "tl": [
+     "Warren County, NJ"
+    ],
+    "uk": [
+     "Округ Воррен, Нью-Джерсі"
+    ],
+    "ur": [
+     "Warren County, NJ"
+    ],
+    "vi": [
+     "Hạt Warren, NJ"
+    ],
+    "yi": [
+     "Warren County, NJ"
+    ],
+    "zh-Hans": [
+     "新泽西州沃伦县"
+    ],
+    "zh-Hant": [
+     "紐澤西州沃倫郡"
+    ]
+   }
+  },
+  {
+   "en": "Cecil County, MD",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة سيسيل، ماريلاند"
+    ],
+    "bn": [
+     "Cecil County, MD"
+    ],
+    "de": [
+     "Cecil County, MD"
+    ],
+    "es": [
+     "Condado de Cecil, MD"
+    ],
+    "fr": [
+     "Comté de Cecil (Maryland)"
+    ],
+    "gu": [
+     "Cecil County, MD"
+    ],
+    "he": [
+     "מחוז ססיל, מרילנד"
+    ],
+    "hi": [
+     "Cecil County, MD"
+    ],
+    "ht": [
+     "Cecil County, MD"
+    ],
+    "it": [
+     "Cecil County, Maryland"
+    ],
+    "ja": [
+     "メリーランド州セシル郡"
+    ],
+    "ko": [
+     "메릴랜드주 세실 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Cecil (Maryland)"
+    ],
+    "pt": [
+     "Condado de Cecil (MD)"
+    ],
+    "ru": [
+     "Округ Сесил (Мэриленд)"
+    ],
+    "tl": [
+     "Cecil County, MD"
+    ],
+    "uk": [
+     "Округ Сесіл, Меріленд"
+    ],
+    "ur": [
+     "Cecil County, MD"
+    ],
+    "vi": [
+     "Hạt Cecil, MD"
+    ],
+    "yi": [
+     "Cecil County, MD"
+    ],
+    "zh-Hans": [
+     "马里兰州塞西尔县"
+    ],
+    "zh-Hant": [
+     "馬里蘭州塞西爾郡"
+    ]
+   }
+  },
+  {
+   "en": "Bristol County, MA",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة بريستول، ماساتشوستس"
+    ],
+    "bn": [
+     "Bristol County, MA"
+    ],
+    "de": [
+     "Bristol County, MA"
+    ],
+    "es": [
+     "Condado de Bristol, MA"
+    ],
+    "fr": [
+     "Comté de Bristol (Massachusetts)"
+    ],
+    "gu": [
+     "Bristol County, MA"
+    ],
+    "he": [
+     "מחוז בריסטול, מסצ׳וסטס"
+    ],
+    "hi": [
+     "Bristol County, MA"
+    ],
+    "ht": [
+     "Bristol County, MA"
+    ],
+    "it": [
+     "Bristol County, Massachusetts"
+    ],
+    "ja": [
+     "マサチューセッツ州ブリストル郡"
+    ],
+    "ko": [
+     "매사추세츠주 브리스톨 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Bristol (Massachusetts)"
+    ],
+    "pt": [
+     "Condado de Bristol (MA)"
+    ],
+    "ru": [
+     "Округ Бристоль (Массачусетс)"
+    ],
+    "tl": [
+     "Bristol County, MA"
+    ],
+    "uk": [
+     "Округ Бристоль, Массачусетс"
+    ],
+    "ur": [
+     "Bristol County, MA"
+    ],
+    "vi": [
+     "Hạt Bristol, MA"
+    ],
+    "yi": [
+     "Bristol County, MA"
+    ],
+    "zh-Hans": [
+     "马萨诸塞州布里斯托尔县"
+    ],
+    "zh-Hant": [
+     "麻州布里斯托郡"
+    ]
+   }
+  },
+  {
+   "en": "Dukes County, MA",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة ديوكس، ماساتشوستس"
+    ],
+    "bn": [
+     "Dukes County, MA"
+    ],
+    "de": [
+     "Dukes County, MA"
+    ],
+    "es": [
+     "Condado de Dukes, MA"
+    ],
+    "fr": [
+     "Comté de Dukes (Massachusetts)"
+    ],
+    "gu": [
+     "Dukes County, MA"
+    ],
+    "he": [
+     "מחוז דיוקס, מסצ׳וסטס"
+    ],
+    "hi": [
+     "Dukes County, MA"
+    ],
+    "ht": [
+     "Dukes County, MA"
+    ],
+    "it": [
+     "Dukes County, Massachusetts"
+    ],
+    "ja": [
+     "マサチューセッツ州デュークス郡"
+    ],
+    "ko": [
+     "매사추세츠주 듀크스 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Dukes (Massachusetts)"
+    ],
+    "pt": [
+     "Condado de Dukes (MA)"
+    ],
+    "ru": [
+     "Округ Дьюкс (Массачусетс)"
+    ],
+    "tl": [
+     "Dukes County, MA"
+    ],
+    "uk": [
+     "Округ Дюкс, Массачусетс"
+    ],
+    "ur": [
+     "Dukes County, MA"
+    ],
+    "vi": [
+     "Hạt Dukes, MA"
+    ],
+    "yi": [
+     "Dukes County, MA"
+    ],
+    "zh-Hans": [
+     "马萨诸塞州杜克斯县"
+    ],
+    "zh-Hant": [
+     "麻州杜克斯郡"
+    ]
+   }
+  },
+  {
+   "en": "Nantucket County, MA",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة نانتوكيت، ماساتشوستس"
+    ],
+    "bn": [
+     "Nantucket County, MA"
+    ],
+    "de": [
+     "Nantucket County, MA"
+    ],
+    "es": [
+     "Condado de Nantucket, MA"
+    ],
+    "fr": [
+     "Comté de Nantucket (Massachusetts)"
+    ],
+    "gu": [
+     "Nantucket County, MA"
+    ],
+    "he": [
+     "מחוז ננטקט, מסצ׳וסטס"
+    ],
+    "hi": [
+     "Nantucket County, MA"
+    ],
+    "ht": [
+     "Nantucket County, MA"
+    ],
+    "it": [
+     "Nantucket County, Massachusetts"
+    ],
+    "ja": [
+     "マサチューセッツ州ナンタケット郡"
+    ],
+    "ko": [
+     "매사추세츠주 낸터킷 카운티"
+    ],
+    "pl": [
+     "Hrabstwo Nantucket (Massachusetts)"
+    ],
+    "pt": [
+     "Condado de Nantucket (MA)"
+    ],
+    "ru": [
+     "Округ Нантакет (Массачусетс)"
+    ],
+    "tl": [
+     "Nantucket County, MA"
+    ],
+    "uk": [
+     "Округ Нантакет, Массачусетс"
+    ],
+    "ur": [
+     "Nantucket County, MA"
+    ],
+    "vi": [
+     "Hạt Nantucket, MA"
+    ],
+    "yi": [
+     "Nantucket County, MA"
+    ],
+    "zh-Hans": [
+     "马萨诸塞州楠塔基特县"
+    ],
+    "zh-Hant": [
+     "麻州楠塔基特郡"
+    ]
+   }
+  },
+  {
+   "en": "York County, ME",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مقاطعة يورك، مين"
+    ],
+    "bn": [
+     "York County, ME"
+    ],
+    "de": [
+     "York County, ME"
+    ],
+    "es": [
+     "Condado de York, ME"
+    ],
+    "fr": [
+     "Comté de York (Maine)"
+    ],
+    "gu": [
+     "York County, ME"
+    ],
+    "he": [
+     "מחוז יורק, מיין"
+    ],
+    "hi": [
+     "York County, ME"
+    ],
+    "ht": [
+     "York County, ME"
+    ],
+    "it": [
+     "York County, Maine"
+    ],
+    "ja": [
+     "メイン州ヨーク郡"
+    ],
+    "ko": [
+     "메인주 요크 카운티"
+    ],
+    "pl": [
+     "Hrabstwo York (Maine)"
+    ],
+    "pt": [
+     "Condado de York (ME)"
+    ],
+    "ru": [
+     "Округ Йорк (Мэн)"
+    ],
+    "tl": [
+     "York County, ME"
+    ],
+    "uk": [
+     "Округ Йорк, Мен"
+    ],
+    "ur": [
+     "York County, ME"
+    ],
+    "vi": [
+     "Hạt York, ME"
+    ],
+    "yi": [
+     "York County, ME"
+    ],
+    "zh-Hans": [
+     "缅因州约克县"
+    ],
+    "zh-Hant": [
+     "緬因州約克郡"
+    ]
+   }
+  },
+  {
+   "en": "New York",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "ولاية نيويورك"
+    ],
+    "bn": [
+     "নিউ ইয়র্ক অঙ্গরাজ্য"
+    ],
+    "de": [
+     "Bundesstaat New York"
+    ],
+    "es": [
+     "Estado de Nueva York"
+    ],
+    "fr": [
+     "État de New York"
+    ],
+    "gu": [
+     "ન્યૂ યોર્ક રાજ્ય"
+    ],
+    "he": [
+     "מדינת ניו יורק"
+    ],
+    "hi": [
+     "न्यूयॉर्क राज्य"
+    ],
+    "ht": [
+     "Eta Nouyòk"
+    ],
+    "it": [
+     "Stato di New York"
+    ],
+    "ja": [
+     "ニューヨーク州"
+    ],
+    "ko": [
+     "뉴욕주"
+    ],
+    "pl": [
+     "Stan Nowy Jork"
+    ],
+    "pt": [
+     "Estado de Nova York"
+    ],
+    "ru": [
+     "Штат Нью-Йорк"
+    ],
+    "tl": [
+     "Estado ng New York"
+    ],
+    "uk": [
+     "Штат Нью-Йорк"
+    ],
+    "ur": [
+     "ریاست نیو یارک"
+    ],
+    "vi": [
+     "Bang New York"
+    ],
+    "yi": [
+     "שטאַט ניו־יאָרק"
+    ],
+    "zh-Hans": [
+     "纽约州"
+    ],
+    "zh-Hant": [
+     "紐約州"
+    ]
+   }
+  },
+  {
+   "en": "New Jersey",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "نيوجيرسي"
+    ],
+    "bn": [
+     "নিউ জার্সি"
+    ],
+    "de": [
+     "New Jersey"
+    ],
+    "es": [
+     "Nueva Jersey"
+    ],
+    "fr": [
+     "New Jersey"
+    ],
+    "gu": [
+     "ન્યૂ જર્સી"
+    ],
+    "he": [
+     "ניו ג׳רזי"
+    ],
+    "hi": [
+     "न्यू जर्सी"
+    ],
+    "ht": [
+     "New Jersey"
+    ],
+    "it": [
+     "New Jersey"
+    ],
+    "ja": [
+     "ニュージャージー州"
+    ],
+    "ko": [
+     "뉴저지"
+    ],
+    "pl": [
+     "New Jersey"
+    ],
+    "pt": [
+     "Nova Jersey"
+    ],
+    "ru": [
+     "Нью-Джерси"
+    ],
+    "tl": [
+     "New Jersey"
+    ],
+    "uk": [
+     "Нью-Джерсі"
+    ],
+    "ur": [
+     "نیو جرسی"
+    ],
+    "vi": [
+     "New Jersey"
+    ],
+    "yi": [
+     "ניו־דזשערזי"
+    ],
+    "zh-Hans": [
+     "新泽西州"
+    ],
+    "zh-Hant": [
+     "紐澤西州"
+    ]
+   }
+  },
+  {
+   "en": "Pennsylvania",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "بنسلفانيا"
+    ],
+    "bn": [
+     "পেনসিলভানিয়া"
+    ],
+    "de": [
+     "Pennsylvania"
+    ],
+    "es": [
+     "Pensilvania"
+    ],
+    "fr": [
+     "Pennsylvanie"
+    ],
+    "gu": [
+     "પેન્સિલવેનિયા"
+    ],
+    "he": [
+     "פנסילבניה"
+    ],
+    "hi": [
+     "पेंसिल्वेनिया"
+    ],
+    "ht": [
+     "Pennsilvani"
+    ],
+    "it": [
+     "Pennsylvania"
+    ],
+    "ja": [
+     "ペンシルベニア州"
+    ],
+    "ko": [
+     "펜실베이니아"
+    ],
+    "pl": [
+     "Pensylwania"
+    ],
+    "pt": [
+     "Pensilvânia"
+    ],
+    "ru": [
+     "Пенсильвания"
+    ],
+    "tl": [
+     "Pennsylvania"
+    ],
+    "uk": [
+     "Пенсильванія"
+    ],
+    "ur": [
+     "پنسلوانیا"
+    ],
+    "vi": [
+     "Pennsylvania"
+    ],
+    "yi": [
+     "פּענסילווייניע"
+    ],
+    "zh-Hans": [
+     "宾夕法尼亚州"
+    ],
+    "zh-Hant": [
+     "賓州"
+    ]
+   }
+  },
+  {
+   "en": "Massachusetts",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "ماساتشوستس"
+    ],
+    "bn": [
+     "ম্যাসাচুসেটস"
+    ],
+    "de": [
+     "Massachusetts"
+    ],
+    "es": [
+     "Massachusetts"
+    ],
+    "fr": [
+     "Massachusetts"
+    ],
+    "gu": [
+     "મેસેચ્યુસેટ્સ"
+    ],
+    "he": [
+     "מסצ׳וסטס"
+    ],
+    "hi": [
+     "मैसाचुसेट्स"
+    ],
+    "ht": [
+     "Massachusetts"
+    ],
+    "it": [
+     "Massachusetts"
+    ],
+    "ja": [
+     "マサチューセッツ州"
+    ],
+    "ko": [
+     "매사추세츠"
+    ],
+    "pl": [
+     "Massachusetts"
+    ],
+    "pt": [
+     "Massachusetts"
+    ],
+    "ru": [
+     "Массачусетс"
+    ],
+    "tl": [
+     "Massachusetts"
+    ],
+    "uk": [
+     "Массачусетс"
+    ],
+    "ur": [
+     "میساچوسٹس"
+    ],
+    "vi": [
+     "Massachusetts"
+    ],
+    "yi": [
+     "מאַסאַטשוסעטס"
+    ],
+    "zh-Hans": [
+     "马萨诸塞州"
+    ],
+    "zh-Hant": [
+     "麻州"
+    ]
+   }
+  },
+  {
+   "en": "Maryland",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "ماريلاند"
+    ],
+    "bn": [
+     "মেরিল্যান্ড"
+    ],
+    "de": [
+     "Maryland"
+    ],
+    "es": [
+     "Maryland"
+    ],
+    "fr": [
+     "Maryland"
+    ],
+    "gu": [
+     "મેરીલેન્ડ"
+    ],
+    "he": [
+     "מרילנד"
+    ],
+    "hi": [
+     "मैरीलैंड"
+    ],
+    "ht": [
+     "Maryland"
+    ],
+    "it": [
+     "Maryland"
+    ],
+    "ja": [
+     "メリーランド州"
+    ],
+    "ko": [
+     "메릴랜드"
+    ],
+    "pl": [
+     "Maryland"
+    ],
+    "pt": [
+     "Maryland"
+    ],
+    "ru": [
+     "Мэриленд"
+    ],
+    "tl": [
+     "Maryland"
+    ],
+    "uk": [
+     "Меріленд"
+    ],
+    "ur": [
+     "میری لینڈ"
+    ],
+    "vi": [
+     "Maryland"
+    ],
+    "yi": [
+     "מערילאַנד"
+    ],
+    "zh-Hans": [
+     "马里兰州"
+    ],
+    "zh-Hant": [
+     "馬里蘭州"
+    ]
+   }
+  },
+  {
+   "en": "Maine",
+   "kind": "place",
+   "names": {
+    "ar": [
+     "مين"
+    ],
+    "bn": [
+     "মেইন"
+    ],
+    "de": [
+     "Maine"
+    ],
+    "es": [
+     "Maine"
+    ],
+    "fr": [
+     "Maine"
+    ],
+    "gu": [
+     "મેઇન"
+    ],
+    "he": [
+     "מיין"
+    ],
+    "hi": [
+     "मेन"
+    ],
+    "ht": [
+     "Maine"
+    ],
+    "it": [
+     "Maine"
+    ],
+    "ja": [
+     "メイン州"
+    ],
+    "ko": [
+     "메인"
+    ],
+    "pl": [
+     "Maine"
+    ],
+    "pt": [
+     "Maine"
+    ],
+    "ru": [
+     "Мэн"
+    ],
+    "tl": [
+     "Maine"
+    ],
+    "uk": [
+     "Мен"
+    ],
+    "ur": [
+     "مین"
+    ],
+    "vi": [
+     "Maine"
+    ],
+    "yi": [
+     "מיין"
+    ],
+    "zh-Hans": [
+     "缅因州"
+    ],
+    "zh-Hant": [
+     "緬因州"
+    ]
+   }
+  }
+ ]
+}

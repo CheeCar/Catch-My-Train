@@ -1,0 +1,4 @@
+// Signing settings shared by every target. The Developer Team isn't kept in the repository:
+// copy Local.xcconfig.example to Local.xcconfig (ignored by git) and put your Team ID there.
+// The question mark makes the file optional, so a fresh copy still opens; Xcode then asks for a Team.
+#include? "Local.xcconfig"

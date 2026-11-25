@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppGroupIdentifier</key>
+	<string>$(TeamIdentifierPrefix)com.cheecar.catchmytrain.shared</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Catch My Train</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.cheecar.CatchMyTrain</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>catchmytrain</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>278</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.travel</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright (c) 2026 CheeCar. PolyForm Noncommercial License 1.0.0.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Catch My Train uses your location to work out walking times to nearby stations, stops and piers. It is sent only to Apple Maps, for walking routes and place names, and to no one else, unless you choose Google Maps for Directions.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Catch My Train uses your location to work out walking times to nearby stations, stops and piers. It is sent only to Apple Maps, for walking routes and place names, and to no one else, unless you choose Google Maps for Directions.</string>
+</dict>
+</plist>

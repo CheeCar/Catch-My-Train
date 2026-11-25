@@ -1,0 +1,20 @@
+xcuserdata/
+.build/
+DerivedData/
+.swiftpm/
+*.xcuserstate
+# Build output and release DMGs
+build/
+*.zip
+*.dmg
+*.sha256
+# Python tool caches
+__pycache__/
+*.pyc
+# Node tool packages
+node_modules/
+# Backup copies
+*.bak
+.DS_Store
+# Signing: your Developer Team (see Local.xcconfig.example)
+Local.xcconfig

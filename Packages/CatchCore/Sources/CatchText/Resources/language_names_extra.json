@@ -1,0 +1,33 @@
+{
+ "ht": {
+  "ar": "Arab",
+  "bn": "Bengali",
+  "zh-Hans": "Chinwa (senplifye)",
+  "zh-Hant": "Chinwa (tradisyonèl)",
+  "en": "Anglè",
+  "fr": "Fransè",
+  "de": "Alman",
+  "gu": "Goudjarati",
+  "ht": "Kreyòl ayisyen",
+  "he": "Ebre",
+  "hi": "Endi",
+  "it": "Italyen",
+  "ja": "Japonè",
+  "ko": "Koreyen",
+  "pl": "Polonè",
+  "pt": "Pòtigè (Brezil)",
+  "ru": "Ris",
+  "es": "Panyòl (Amerik Latin)",
+  "tl": "Tagalòg",
+  "uk": "Ikrenyen",
+  "ur": "Oudou",
+  "vi": "Vyetnamyen",
+  "yi": "Yidich"
+ },
+ "yi": {
+  "gu": "גודזשאַראַטי",
+  "ht": "האַיטיש קרעאָל",
+  "zh-Hans": "כינעזיש (פֿאַראיינפֿאַכט)",
+  "zh-Hant": "כינעזיש (טראַדיציאָנעל)"
+ }
+}

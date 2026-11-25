@@ -1,0 +1,500 @@
+# MTA Subway Stations (data.ny.gov dataset 39hk-dx4f, "MTA Subway Stations"), downloaded 2026-10-13.
+# Source CSV SHA-256: 9533f6762548a309060a42914e0feaa3233835c2a83f959ca7ca8251d022e1bd (496 rows).
+# Columns: GTFS Stop ID|Complex ID|Borough|Daytime Routes|North Direction Label|South Direction Label
+# Rows below SHA-256 (rows only, each ending in a newline): df263e3ad92cf39f030518c644b2178d5876dff3b180153500e01b11f4d41ea0
+101|293|Bx|1|Last Stop|Manhattan
+103|294|Bx|1|Van Cortlandt|Manhattan
+104|295|Bx|1|Van Cortlandt|Manhattan
+106|296|M|1|The Bronx|Downtown
+107|297|M|1|The Bronx|Downtown
+108|298|M|1|The Bronx|Downtown
+109|299|M|1|The Bronx|Downtown
+110|300|M|1|The Bronx|Downtown
+111|301|M|1|The Bronx|Downtown
+112|605|M|1|Uptown|Downtown
+113|303|M|1|Uptown|Downtown
+114|304|M|1|Uptown|Downtown
+115|305|M|1|Uptown|Downtown
+116|306|M|1|Uptown|Downtown
+117|307|M|1|Uptown|Downtown
+118|308|M|1|Uptown|Downtown
+119|309|M|1|Uptown|Downtown
+120|310|M|1 2 3|Uptown|Downtown
+121|311|M|1|Uptown|Downtown
+122|312|M|1|Uptown|Downtown
+123|313|M|1 2 3|Uptown|Downtown
+124|314|M|1|Uptown|Downtown
+125|614|M|1|Uptown|Downtown
+126|316|M|1|Uptown|Downtown
+127|611|M|1 2 3|Uptown|Downtown
+128|318|M|1 2 3|Uptown|Downtown
+129|319|M|1|Uptown|Downtown
+130|320|M|1|Uptown|Downtown
+131|321|M|1|Uptown|Downtown
+132|601|M|1 2 3|Uptown|Downtown
+133|323|M|1|Uptown|Downtown
+134|324|M|1|Uptown|Downtown
+135|325|M|1|Uptown|Downtown
+136|326|M|1|Uptown|Downtown
+137|327|M|1 2 3|Uptown|Downtown
+138|328|M|1|Uptown|Downtown
+139|329|M|1|Uptown|Downtown
+142|635|M|1|Uptown|Last Stop
+201|416|Bx|2|Last Stop|Manhattan
+204|417|Bx|2 5|Northbound|Manhattan
+205|418|Bx|2 5|Northbound|Manhattan
+206|419|Bx|2 5|Northbound|Manhattan
+207|420|Bx|2 5|Northbound|Manhattan
+208|421|Bx|2 5|Northbound|Manhattan
+209|422|Bx|2 5|Northbound|Manhattan
+210|423|Bx|2 5|Northbound|Manhattan
+211|424|Bx|2 5|Northbound|Manhattan
+212|425|Bx|2 5|Northbound|Manhattan
+213|426|Bx|2 5|Northbound|Manhattan
+214|427|Bx|2 5|Northbound|Manhattan
+215|428|Bx|2 5|Northbound|Manhattan
+216|429|Bx|2 5|Northbound|Manhattan
+217|430|Bx|2 5|Northbound|Manhattan
+218|431|Bx|2 5|Northbound|Manhattan
+219|432|Bx|2 5|Northbound|Manhattan
+220|433|Bx|2 5|Northbound|Manhattan
+221|434|Bx|2 5|Northbound|Manhattan
+222|603|Bx|2 5|Northbound|Manhattan
+224|438|M|2 3|Uptown|Downtown
+225|439|M|2 3|Uptown|Downtown
+226|440|M|2 3|Uptown|Downtown
+227|441|M|2 3|Uptown|Downtown
+228|624|M|2 3|Uptown|Brooklyn
+229|628|M|2 3|Uptown|Brooklyn
+230|333|M|2 3|Uptown|Brooklyn
+231|334|Bk|2 3|Manhattan|Outbound
+232|620|Bk|2 3|Manhattan|Outbound
+233|336|Bk|2 3|Manhattan|Outbound
+234|337|Bk|2 3 4 5|Manhattan|Outbound
+235|617|Bk|2 3 4 5|Manhattan|Outbound
+236|339|Bk|2 3|Manhattan|Outbound
+237|340|Bk|2 3|Manhattan|Outbound
+238|341|Bk|2 3|Manhattan|Outbound
+239|626|Bk|2 3 4 5|Manhattan|Outbound
+241|353|Bk|2 5|Manhattan|Flatbush
+242|354|Bk|2 5|Manhattan|Flatbush
+243|355|Bk|2 5|Manhattan|Flatbush
+244|356|Bk|2 5|Manhattan|Flatbush
+245|357|Bk|2 5|Manhattan|Flatbush
+246|358|Bk|2 5|Manhattan|Flatbush
+247|359|Bk|2 5|Manhattan|Last Stop
+248|343|Bk|3|Manhattan|Outbound
+249|344|Bk|3|Manhattan|Outbound
+250|345|Bk|3 4|Manhattan|Outbound
+251|346|Bk|3|Manhattan|New Lots
+252|347|Bk|3|Manhattan|New Lots
+253|348|Bk|3|Manhattan|New Lots
+254|349|Bk|3|Manhattan|New Lots
+255|350|Bk|3|Manhattan|New Lots
+256|351|Bk|3|Manhattan|New Lots
+257|352|Bk|3|Manhattan|Last Stop
+301|436|M|3|Last Stop|Downtown
+302|437|M|3|Harlem|Downtown
+401|378|Bx|4|Last Stop|Manhattan
+402|379|Bx|4|Woodlawn|Manhattan
+405|380|Bx|4|Northbound|Manhattan
+406|381|Bx|4|Northbound|Manhattan
+407|382|Bx|4|Northbound|Manhattan
+408|383|Bx|4|Northbound|Manhattan
+409|384|Bx|4|Northbound|Manhattan
+410|385|Bx|4|Northbound|Manhattan
+411|386|Bx|4|Northbound|Manhattan
+412|387|Bx|4|Northbound|Manhattan
+413|388|Bx|4|Northbound|Manhattan
+414|604|Bx|4|Northbound|Manhattan
+415|603|Bx|4|Northbound|Manhattan
+416|391|Bx|4 5|Northbound|Manhattan
+418|628|M|4 5|Uptown|Downtown
+419|413|M|4 5|Uptown|Downtown
+420|414|M|4 5|Uptown|Downtown
+423|620|Bk|4 5|Manhattan|Outbound
+501|442|Bx|5|Last Stop|Manhattan
+502|443|Bx|5|Eastchester|Manhattan
+503|444|Bx|5|Eastchester|Manhattan
+504|445|Bx|5|Eastchester|Manhattan
+505|446|Bx|5|Eastchester|Manhattan
+601|360|Bx|6|Last Stop|Manhattan
+602|361|Bx|6|Pelham Bay|Manhattan
+603|362|Bx|6|Pelham Bay|Manhattan
+604|363|Bx|6|Pelham Bay|Manhattan
+606|364|Bx|6|Pelham Bay|Manhattan
+607|365|Bx|6|Pelham Bay|Manhattan
+608|366|Bx|6|Northbound|Manhattan
+609|367|Bx|6|Northbound|Manhattan
+610|368|Bx|6|Northbound|Manhattan
+611|369|Bx|6|Northbound|Manhattan
+612|370|Bx|6|Northbound|Manhattan
+613|371|Bx|6|Northbound|Manhattan
+614|372|Bx|6|Northbound|Manhattan
+615|373|Bx|6|Northbound|Manhattan
+616|374|Bx|6|Northbound|Manhattan
+617|375|Bx|6|Northbound|Manhattan
+618|376|Bx|6|Northbound|Manhattan
+619|377|Bx|6|Northbound|Manhattan
+621|392|M|4 5 6|The Bronx|Downtown
+622|393|M|6|The Bronx|Downtown
+623|394|M|6|The Bronx|Downtown
+624|395|M|6|The Bronx|Downtown
+625|396|M|6|The Bronx|Downtown
+626|397|M|4 5 6|Uptown|Downtown
+627|398|M|6|Uptown|Downtown
+628|399|M|6|Uptown|Downtown
+629|613|M|4 5 6|Uptown|Downtown
+630|612|M|6|Uptown|Downtown
+631|610|M|4 5 6|Uptown|Downtown
+632|403|M|6|Uptown|Downtown
+633|404|M|6|Uptown|Downtown
+634|405|M|6|Uptown|Downtown
+635|602|M|4 5 6|Uptown|Downtown
+636|407|M|6|Uptown|Downtown
+637|619|M|6|Uptown|Downtown
+638|409|M|6|Uptown|Downtown
+639|623|M|6|Uptown|Downtown
+640|622|M|4 5 6|Uptown|Downtown
+701|447|Q|7|Last Stop|Manhattan
+702|448|Q|7|Outbound|Manhattan
+705|449|Q|7|Outbound|Manhattan
+706|450|Q|7|Outbound|Manhattan
+707|451|Q|7|Outbound|Manhattan
+708|452|Q|7|Outbound|Manhattan
+709|453|Q|7|Outbound|Manhattan
+710|616|Q|7|Outbound|Manhattan
+711|455|Q|7|Outbound|Manhattan
+712|456|Q|7|Outbound|Manhattan
+713|457|Q|7|Outbound|Manhattan
+714|458|Q|7|Outbound|Manhattan
+715|459|Q|7|Outbound|Manhattan
+716|460|Q|7|Outbound|Manhattan
+718|461|Q|7|Outbound|Manhattan
+719|606|Q|7|Outbound|Manhattan
+720|463|Q|7|Outbound|Manhattan
+721|464|Q|7|Outbound|Manhattan
+723|610|M|7|Queens|Hudson Yards
+724|609|M|7|Queens|Hudson Yards
+725|611|M|7|Queens|Hudson Yards
+726|471|M|7|Last Stop|Queens
+901|610|M|S|Times Square|Last Stop
+902|611|M|S|Last Stop|Grand Central
+A02|143|M|A|Last Stop|Downtown
+A03|144|M|A|Uptown|Downtown
+A05|145|M|A|Uptown|Downtown
+A06|146|M|A|Uptown|Downtown
+A07|147|M|A|Uptown|Downtown
+A09|605|M|A C|Uptown|Downtown
+A10|149|M|C|Uptown|Downtown
+A11|150|M|C|Uptown|Downtown
+A12|151|M|A C|Uptown|Downtown
+A14|152|M|C B|Uptown|Downtown
+A15|153|M|A C B D|Uptown|Downtown
+A16|154|M|C B|Uptown|Downtown
+A17|155|M|C B|Uptown|Downtown
+A18|156|M|C B|Uptown|Downtown
+A19|157|M|C B|Uptown|Downtown
+A20|158|M|C B|Uptown|Downtown
+A21|159|M|C B|Uptown|Downtown
+A22|160|M|C B|Uptown|Downtown
+A24|614|M|A C B D|Uptown|Downtown
+A25|162|M|C E|Uptown|Downtown
+A27|611|M|A C E|Uptown|Downtown
+A28|164|M|A C E|Uptown|Downtown
+A30|165|M|C E|Uptown|Downtown
+A31|618|M|A C E|Uptown|Downtown
+A32|167|M|A C E|Uptown|Downtown
+A33|168|M|C E|Uptown|Downtown
+A34|169|M|A C E|Uptown|Downtown
+A36|624|M|A C|Uptown|Brooklyn
+A38|628|M|A C|Uptown|Brooklyn
+A40|173|Bk|A C|Manhattan|Outbound
+A41|636|Bk|A C F|Manhattan|Outbound
+A42|175|Bk|A C G|Westbound|Queens
+A43|176|Bk|C|Manhattan|Outbound
+A44|177|Bk|C|Manhattan|Outbound
+A45|627|Bk|C|Manhattan|Outbound
+A46|179|Bk|A C|Manhattan|Outbound
+A47|180|Bk|C|Manhattan|Outbound
+A48|181|Bk|A C|Manhattan|Outbound
+A49|182|Bk|C|Manhattan|Outbound
+A50|183|Bk|C|Manhattan|Outbound
+A51|621|Bk|A C|Manhattan|Outbound
+A52|185|Bk|C|Manhattan|Outbound
+A53|186|Bk|C|Manhattan|Outbound
+A54|187|Bk|C|Manhattan|Outbound
+A55|188|Bk|A C|Manhattan|Queens
+A57|189|Bk|A|Manhattan|Queens
+A59|190|Q|A|Manhattan|Outbound
+A60|191|Q|A|Manhattan|Outbound
+A61|192|Q|A|Manhattan|Outbound
+A63|193|Q|A|Manhattan|Ozone Park
+A64|194|Q|A|Manhattan|Ozone Park
+A65|195|Q|A|Manhattan|Last Stop
+B04|221|Q|M|Outbound|Manhattan
+B06|222|M|M|Queens|Downtown
+B08|223|M|M Q|Uptown & Queens|Downtown
+B10|224|M|M|Uptown|Downtown
+B12|59|Bk|D|Manhattan|Southbound
+B13|60|Bk|D|Manhattan|Southbound
+B14|61|Bk|D|Manhattan|Southbound
+B15|62|Bk|D|Manhattan|Southbound
+B16|615|Bk|D|Manhattan|Southbound
+B17|64|Bk|D|Manhattan|Southbound
+B18|65|Bk|D|Manhattan|Southbound
+B19|66|Bk|D|Manhattan|Southbound
+B20|67|Bk|D|Manhattan|Southbound
+B21|68|Bk|D|Manhattan|Southbound
+B22|69|Bk|D|Manhattan|Coney Island
+B23|70|Bk|D|Manhattan|Coney Island
+D01|210|Bx|D|Last Stop|Manhattan
+D03|211|Bx|B D|Northbound|Manhattan
+D04|212|Bx|B D|Northbound|Manhattan
+D05|213|Bx|B D|Northbound|Manhattan
+D06|214|Bx|B D|Northbound|Manhattan
+D07|215|Bx|B D|Northbound|Manhattan
+D08|216|Bx|B D|Northbound|Manhattan
+D09|217|Bx|B D|Northbound|Manhattan
+D10|218|Bx|B D|Northbound|Manhattan
+D11|604|Bx|B D|Northbound|Manhattan
+D12|220|M|B D|The Bronx|Downtown
+D13|151|M|B D|Uptown|Downtown
+D14|277|M|E B D|Outbound|Downtown
+D15|225|M|B D F M|Uptown|Downtown
+D16|609|M|B D F M|Uptown|Downtown
+D17|607|M|B D F M|Uptown|Downtown
+D18|228|M|F M|Uptown|Downtown
+D19|601|M|F M|Uptown|Downtown
+D20|167|M|B D F M|Uptown|Downtown
+D21|619|M|B D F M|Uptown|Downtown
+D22|231|M|B D|Uptown|Brooklyn
+D24|617|Bk|B Q|Manhattan|Southbound
+D25|41|Bk|B Q|Manhattan|Southbound
+D26|42|Bk|B Q S|Northbound|Southbound
+D27|43|Bk|Q|Manhattan|Southbound
+D28|44|Bk|B Q|Manhattan|Southbound
+D29|45|Bk|Q|Manhattan|Southbound
+D30|46|Bk|Q|Manhattan|Southbound
+D31|47|Bk|B Q|Manhattan|Southbound
+D32|48|Bk|Q|Manhattan|Southbound
+D33|49|Bk|Q|Manhattan|Southbound
+D34|50|Bk|Q|Manhattan|Southbound
+D35|51|Bk|B Q|Manhattan|Southbound
+D37|52|Bk|Q|Manhattan|Southbound
+D38|53|Bk|Q|Manhattan|Southbound
+D39|54|Bk|B Q|Manhattan|Southbound
+D40|55|Bk|B Q|Manhattan|Southbound
+D41|56|Bk|Q|Manhattan|Coney Island
+D42|57|Bk|F Q|Manhattan|Coney Island
+D43|58|Bk|D F N Q|Manhattan|Last Stop
+E01|624|M|E|Uptown|Last Stop
+F01|254|Q|F|Last Stop|Manhattan
+F02|255|Q|F|Jamaica|Manhattan
+F03|256|Q|F|Jamaica|Manhattan
+F04|257|Q|F|Jamaica|Manhattan
+F05|258|Q|E F|Jamaica|Manhattan
+F06|259|Q|E F|Jamaica|Manhattan
+F07|260|Q|E F|Jamaica|Manhattan
+F09|606|Q|E F|Outbound|Manhattan
+F11|612|M|E F|Queens|Downtown
+F12|276|M|E F|Queens|Downtown
+F14|232|M|F|Uptown|Downtown
+F15|625|M|F|Uptown|Brooklyn
+F16|234|M|F|Uptown|Brooklyn
+F18|235|Bk|F|Manhattan|Southbound
+F20|236|Bk|F G|Northbound|Southbound
+F21|237|Bk|F G|Northbound|Southbound
+F22|238|Bk|F G|Northbound|Southbound
+F23|608|Bk|F G|Northbound|Southbound
+F24|240|Bk|F G|Northbound|Southbound
+F25|241|Bk|F G|Northbound|Southbound
+F26|242|Bk|F G|Northbound|Southbound
+F27|243|Bk|F G|Northbound|Southbound
+F29|244|Bk|F|Manhattan|Southbound
+F30|245|Bk|F|Manhattan|Southbound
+F31|246|Bk|F|Manhattan|Southbound
+F32|247|Bk|F|Manhattan|Southbound
+F33|248|Bk|F|Manhattan|Southbound
+F34|249|Bk|F|Manhattan|Southbound
+F35|250|Bk|F|Manhattan|Southbound
+F36|251|Bk|F|Manhattan|Coney Island
+F38|252|Bk|F|Manhattan|Coney Island
+F39|253|Bk|F|Manhattan|Coney Island
+G05|278|Q|E J Z|Last Stop|Manhattan
+G06|279|Q|E J Z|Jamaica|Manhattan
+G07|280|Q|E|Jamaica|Manhattan
+G08|261|Q|E F M R|Outbound|Manhattan
+G09|262|Q|M R|Outbound|Manhattan
+G10|263|Q|M R|Outbound|Manhattan
+G11|264|Q|M R|Outbound|Manhattan
+G12|265|Q|M R|Outbound|Manhattan
+G13|266|Q|M R|Outbound|Manhattan
+G14|616|Q|E F M R|Outbound|Manhattan
+G15|268|Q|M R|Outbound|Manhattan
+G16|269|Q|M R|Outbound|Manhattan
+G18|270|Q|M R|Outbound|Manhattan
+G19|271|Q|M R|Outbound|Manhattan
+G20|272|Q|M R|Outbound|Manhattan
+G21|273|Q|E F R|Outbound|Manhattan
+G22|606|Q|G|Last Stop|Brooklyn
+G24|282|Q|G|Court Square|Brooklyn
+G26|283|Bk|G|Queens|Southbound
+G28|284|Bk|G|Queens|Southbound
+G29|629|Bk|G|Queens|Southbound
+G30|286|Bk|G|Queens|Southbound
+G31|287|Bk|G|Queens|Southbound
+G32|288|Bk|G|Queens|Southbound
+G33|289|Bk|G|Queens|Southbound
+G34|290|Bk|G|Queens|Southbound
+G35|291|Bk|G|Queens|Southbound
+G36|292|Bk|G|Queens|Southbound
+H01|196|Q|A|Manhattan|Rockaways
+H02|197|Q|A|Manhattan|Rockaways
+H03|198|Q|A|Manhattan|Rockaways
+H04|199|Q|A S|Inbound|Rockaways
+H06|204|Q|A|Manhattan|Far Rockaway
+H07|205|Q|A|Manhattan|Far Rockaway
+H08|206|Q|A|Manhattan|Far Rockaway
+H09|207|Q|A|Manhattan|Far Rockaway
+H10|208|Q|A|Manhattan|Far Rockaway
+H11|209|Q|A|Manhattan|Last Stop
+H12|200|Q|A S|Inbound|Rockaway Park
+H13|201|Q|A S|Inbound|Rockaway Park
+H14|202|Q|A S|Inbound|Rockaway Park
+H15|203|Q|A S|Inbound|Last Stop
+J12|80|Q|J Z|Jamaica|Manhattan
+J13|81|Q|J|Jamaica|Manhattan
+J14|82|Q|J Z|Jamaica|Manhattan
+J15|83|Q|J Z|Jamaica|Manhattan
+J16|84|Q|J|Jamaica|Manhattan
+J17|85|Q|J Z|Jamaica|Manhattan
+J19|86|Bk|J|Queens|Manhattan
+J20|87|Bk|J Z|Outbound|Manhattan
+J21|88|Bk|J Z|Outbound|Manhattan
+J22|89|Bk|J|Outbound|Manhattan
+J23|90|Bk|J Z|Outbound|Manhattan
+J24|91|Bk|J Z|Outbound|Manhattan
+J27|621|Bk|J Z|Outbound|Manhattan
+J28|93|Bk|J Z|Outbound|Manhattan
+J29|94|Bk|J|Outbound|Manhattan
+J30|95|Bk|J Z|Outbound|Manhattan
+J31|96|Bk|J|Outbound|Manhattan
+L01|618|M|L|Last Stop|Brooklyn
+L02|601|M|L|West Side|Brooklyn
+L03|602|M|L|West Side|Brooklyn
+L05|118|M|L|West Side|Brooklyn
+L06|119|M|L|West Side|Brooklyn
+L08|120|Bk|L|Manhattan|Outbound
+L10|629|Bk|L|Manhattan|Outbound
+L11|122|Bk|L|Manhattan|Outbound
+L12|123|Bk|L|Manhattan|Outbound
+L13|124|Bk|L|Manhattan|Outbound
+L14|125|Bk|L|Manhattan|Outbound
+L15|126|Bk|L|Manhattan|Outbound
+L16|127|Bk|L|Manhattan|Outbound
+L17|630|Bk|L|Manhattan|Outbound
+L19|129|Q|L|Manhattan|Outbound
+L20|130|Bk|L|Manhattan|Outbound
+L21|131|Bk|L|Manhattan|Outbound
+L22|621|Bk|L|Manhattan|Outbound
+L24|133|Bk|L|Manhattan|Canarsie
+L25|134|Bk|L|Manhattan|Canarsie
+L26|135|Bk|L|Manhattan|Canarsie
+L27|136|Bk|L|Manhattan|Canarsie
+L28|137|Bk|L|Manhattan|Canarsie
+L29|138|Bk|L|Manhattan|Last Stop
+M01|108|Q|M|Inbound|Last Stop
+M04|109|Q|M|Inbound|Middle Village
+M05|110|Q|M|Inbound|Middle Village
+M06|111|Q|M|Inbound|Middle Village
+M08|630|Bk|M|Inbound|Middle Village
+M09|113|Bk|M|Inbound|Middle Village
+M10|114|Bk|M|Inbound|Middle Village
+M11|97|Bk|M J Z|Outbound|Manhattan
+M12|98|Bk|M J|Outbound|Manhattan
+M13|99|Bk|M J|Outbound|Manhattan
+M14|100|Bk|M J|Outbound|Manhattan
+M16|101|Bk|M J Z|Outbound|Manhattan
+M18|625|M|M J Z|Brooklyn|Inbound
+M19|103|M|J Z|Brooklyn|Downtown
+M20|623|M|J Z|Brooklyn|Downtown
+M21|622|M|J Z|Brooklyn|Downtown
+M22|628|M|J Z|Brooklyn|Downtown
+M23|107|M|J Z|Brooklyn|Last Stop
+N02|71|Bk|N|Manhattan|Coney Island
+N03|72|Bk|N|Manhattan|Coney Island
+N04|615|Bk|N|Manhattan|Coney Island
+N05|74|Bk|N|Manhattan|Coney Island
+N06|75|Bk|N|Manhattan|Coney Island
+N07|76|Bk|N|Manhattan|Coney Island
+N08|77|Bk|N|Manhattan|Coney Island
+N09|78|Bk|N|Manhattan|Coney Island
+N10|79|Bk|N|Manhattan|Coney Island
+Q01|623|M|N Q|Uptown|Downtown
+Q03|477|M|Q|Uptown|Downtown
+Q04|476|M|Q|Uptown|Downtown
+Q05|475|M|Q|Last Stop|Downtown
+R01|1|Q|N W|Last Stop|Manhattan
+R03|2|Q|N W|Astoria|Manhattan
+R04|3|Q|N W|Astoria|Manhattan
+R05|4|Q|N W|Astoria|Manhattan
+R06|5|Q|N W|Astoria|Manhattan
+R08|6|Q|N W|Astoria|Manhattan
+R09|461|Q|N W|Astoria|Manhattan
+R11|613|M|N R W|Queens|Downtown
+R13|8|M|N R W|Queens|Downtown
+R14|9|M|N Q R W|Uptown|Downtown
+R15|10|M|N R W|Uptown|Downtown
+R16|611|M|N Q R W|Uptown|Downtown
+R17|607|M|N Q R W|Uptown|Downtown
+R18|13|M|R W|Uptown|Downtown
+R19|14|M|R W|Uptown|Downtown
+R20|602|M|N Q R W|Uptown|Downtown
+R21|16|M|R W|Uptown|Downtown
+R22|17|M|R W|Uptown|Downtown
+R23|623|M|R W|Uptown|Downtown
+R24|20|M|R W|Uptown|Downtown
+R25|624|M|R W|Uptown|Downtown
+R26|22|M|R W|Uptown|Downtown
+R27|635|M|R W|Uptown|Downtown
+R28|620|Bk|R|Manhattan|Southbound
+R29|636|Bk|R|Manhattan|Southbound
+R30|26|Bk|B Q R|Manhattan|Southbound
+R31|617|Bk|D N R|Manhattan|Southbound
+R32|28|Bk|R|Manhattan|Southbound
+R33|608|Bk|R|Manhattan|Southbound
+R34|30|Bk|R|Manhattan|Southbound
+R35|31|Bk|R|Manhattan|Southbound
+R36|32|Bk|D N R|Manhattan|Southbound
+R39|33|Bk|R|Manhattan|Southbound
+R40|34|Bk|R|Manhattan|Southbound
+R41|35|Bk|N R|Manhattan|Southbound
+R42|36|Bk|R|Manhattan|Bay Ridge
+R43|37|Bk|R|Manhattan|Bay Ridge
+R44|38|Bk|R|Manhattan|Bay Ridge
+R45|39|Bk|R|Manhattan|Last Stop
+S01|627|Bk|S|Last Stop|Prospect Park
+S03|141|Bk|S|Franklin Av|Prospect Park
+S04|626|Bk|S|Franklin Av|Prospect Park
+S09|522|SI|SIR|Ferry|Last Stop
+S11|523|SI|SIR|Ferry|Tottenville
+S13|519|SI|SIR|Ferry|Tottenville
+S14|518|SI|SIR|Ferry|South Shore
+S15|517|SI|SIR|Ferry|South Shore
+S16|516|SI|SIR|Ferry|South Shore
+S17|515|SI|SIR|Ferry|South Shore
+S18|514|SI|SIR|Ferry|South Shore
+S19|513|SI|SIR|Ferry|South Shore
+S20|512|SI|SIR|Ferry|South Shore
+S21|511|SI|SIR|Ferry|South Shore
+S22|510|SI|SIR|Ferry|South Shore
+S23|509|SI|SIR|Ferry|South Shore
+S24|508|SI|SIR|Ferry|South Shore
+S25|507|SI|SIR|Ferry|South Shore
+S26|506|SI|SIR|Ferry|South Shore
+S27|505|SI|SIR|Ferry|South Shore
+S28|504|SI|SIR|Ferry|South Shore
+S29|503|SI|SIR|Ferry|South Shore
+S30|502|SI|SIR|Ferry|South Shore
+S31|501|SI|SIR|Last Stop|South Shore
